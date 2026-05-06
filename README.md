@@ -1,4 +1,4 @@
-# Autonomous Context-Aware Deception Framework
+# Design and Implementation of an Autonomous Context-Aware Deception Framework
 
 **Semester Project — Cybersecurity**  
 Department of Intelligent Information Systems Security Engineering  
@@ -9,7 +9,7 @@ Faculty of Artificial Intelligence Engineering — Syrian Private University
 | **Students** | Omar Khaled Abdulkafi / Moaz Hassan Al-Dawalibi |
 | **Supervisors** | Dr. Wassiem Jnidi / Eng. Amjad Al-Safadi |
 | **Phase** | Semester Project (Phase 1 of 3) |
-| **Status** | ✅ Complete |
+| **Status** |  Complete |
 | **Academic Year** | 2025–2026 |
 
 ---
@@ -18,11 +18,11 @@ Faculty of Artificial Intelligence Engineering — Syrian Private University
 
 An intelligent cybersecurity system that **automatically**:
 
-1. 📡 **Monitors** all network traffic in real-time — Zeek 8.0.5 NSM
-2. 🪤 **Deceives** attackers via a realistic fake SSH server — Cowrie honeypot
-3. 🔍 **Analyzes** its own exposed attack surface — Nmap + Python ASA module
-4. 🤖 **Classifies** each attacker as **Bot** or **Human** — Random Forest ML
-5. ✅ **Validates** against real-world data — UWF-ZeekData22 dataset
+1.  **Monitors** all network traffic in real-time — Zeek 8.0.5 NSM
+2.  **Deceives** attackers via a realistic fake SSH server — Cowrie honeypot
+3.  **Analyzes** its own exposed attack surface — Nmap + Python ASA module
+4.  **Classifies** each attacker as **Bot** or **Human** — Random Forest ML
+5.  **Validates** against real-world data — UWF-ZeekData22 dataset
 
 > **Why "Context-Aware"?**  
 > The system scans its own exposed services, discovers that SSH (port 22) is exposed, and autonomously deploys a Cowrie SSH honeypot — a decision driven by observed context, not static configuration.
