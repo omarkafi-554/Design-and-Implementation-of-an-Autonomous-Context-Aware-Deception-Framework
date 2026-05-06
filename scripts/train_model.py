@@ -1,9 +1,4 @@
-"""
-train_model.py
-Trains a Random Forest classifier on the labeled session dataset,
-evaluates it, and saves the model + evaluation plots.
-Usage: python3 scripts/train_model.py
-"""
+
 import os
 import warnings
 warnings.filterwarnings("ignore")
@@ -38,23 +33,19 @@ def main():
     os.makedirs("models",    exist_ok=True)
     os.makedirs(REPORTS_DIR, exist_ok=True)
 
-    # ── Load data ───────────────────────────────────────────────────
     df = pd.read_csv(DATASET_PATH)
     X  = df[FEATURES]
     y  = df["label"]
     print(f"Dataset: {len(df)} sessions  |  Bot={( y==0).sum()}  Human={( y==1).sum()}")
 
-    # ── Split ───────────────────────────────────────────────────────
     X_train, X_test, y_train, y_test = train_test_split(
         X, y, test_size=0.2, random_state=42, stratify=y
     )
 
-    # ── Scale ───────────────────────────────────────────────────────
     scaler   = StandardScaler()
     X_tr_s   = scaler.fit_transform(X_train)
     X_te_s   = scaler.transform(X_test)
 
-    # ── Grid search ─────────────────────────────────────────────────
     param_grid = {
         "n_estimators"    : [50, 100, 200],
         "max_depth"       : [None, 10, 20],
@@ -69,7 +60,6 @@ def main():
     y_pred = model.predict(X_te_s)
     y_prob = model.predict_proba(X_te_s)[:, 1]
 
-    # ── Metrics ─────────────────────────────────────────────────────
     print("\n=== Classification Report ===")
     print(classification_report(y_test, y_pred, target_names=["Bot", "Human"]))
     auc = roc_auc_score(y_test, y_prob)
@@ -80,13 +70,11 @@ def main():
     cm = confusion_matrix(y_test, y_pred)
     print(f"\nTP={cm[1,1]}  FP={cm[0,1]}  FN={cm[1,0]}  TN={cm[0,0]}")
 
-    # ── Save model ──────────────────────────────────────────────────
     joblib.dump(model,  MODEL_PATH)
     joblib.dump(scaler, SCALER_PATH)
     print(f"\nModel  → {MODEL_PATH}")
     print(f"Scaler → {SCALER_PATH}")
 
-    # ── Confusion matrix plot ───────────────────────────────────────
     fig, ax = plt.subplots(figsize=(5, 4))
     im = ax.imshow(cm, cmap="Blues")
     ax.set_xticks([0, 1]); ax.set_yticks([0, 1])
@@ -101,7 +89,6 @@ def main():
     plt.savefig(f"{REPORTS_DIR}/confusion_matrix.png", dpi=180)
     plt.close()
 
-    # ── ROC curve ───────────────────────────────────────────────────
     fpr, tpr, _ = roc_curve(y_test, y_prob)
     fig2, ax2 = plt.subplots(figsize=(5, 4))
     ax2.plot(fpr, tpr, color="#1C2B5E", lw=2, label=f"AUC = {auc:.4f}")
@@ -112,7 +99,6 @@ def main():
     plt.savefig(f"{REPORTS_DIR}/roc_curve.png", dpi=180)
     plt.close()
 
-    # ── Feature importance ──────────────────────────────────────────
     imp = pd.DataFrame({"feature": FEATURES, "importance": model.feature_importances_})
     imp = imp.sort_values("importance")
     fig3, ax3 = plt.subplots(figsize=(7, 4))
@@ -123,7 +109,6 @@ def main():
     plt.savefig(f"{REPORTS_DIR}/feature_importance.png", dpi=180)
     plt.close()
 
-    # ── ICD comparison ──────────────────────────────────────────────
     bot   = df[df.label == 0]["icd_mean"]
     human = df[df.label == 1]["icd_mean"]
     fig4, ax4 = plt.subplots(figsize=(6, 4))
