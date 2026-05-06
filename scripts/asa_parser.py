@@ -1,11 +1,3 @@
-"""
-asa_parser.py
-Parses Nmap XML output, classifies risk level for each open port,
-and prints the attack surface report.
-Usage:
-  sudo nmap -sV -sC -O -p- TARGET_IP -oX scan.xml
-  python3 scripts/asa_parser.py --input scan.xml --output docs/asa_report.csv
-"""
 import argparse
 import csv
 import os
