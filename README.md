@@ -24,8 +24,6 @@ An intelligent cybersecurity system that **automatically**:
 4.  **Classifies** each attacker as **Bot** or **Human** — Random Forest ML
 5.  **Validates** against real-world data — UWF-ZeekData22 dataset
 
-> **Why "Context-Aware"?**  
-> The system scans its own exposed services, discovers that SSH (port 22) is exposed, and autonomously deploys a Cowrie SSH honeypot — a decision driven by observed context, not static configuration.
 
 ---
 
