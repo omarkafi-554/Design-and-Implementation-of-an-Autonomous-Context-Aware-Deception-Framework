@@ -2,7 +2,7 @@
 
 **Semester Project  Cybersecurity**  
 Department of Intelligent Information Systems Security Engineering  
-Faculty of Artificial Intelligence Engineering — Syrian Private University
+Faculty of Artificial Intelligence Engineering / Syrian Private University
 
 | | |
 |---|---|
@@ -151,8 +151,8 @@ python3 scripts/asa_parser.py --input scan.xml --output docs/attack_surface_repo
 
 | # | Feature | Source | Bot Range | Human Range |
 |---|---------|--------|-----------|-------------|
-| 1 | icd_mean ⭐ | cowrie.json | 0.01–0.5 s | 3–15 s |
-| 2 | unique_commands ⭐ | cowrie.json | 0–2 | 5–15 |
+| 1 | icd_mean  | cowrie.json | 0.01–0.5 s | 3–15 s |
+| 2 | unique_commands  | cowrie.json | 0–2 | 5–15 |
 | 3 | command_count | cowrie.json | 0–3 | 5–20 |
 | 4 | command_diversity | cowrie.json | 0.0–0.3 | 0.6–1.0 |
 | 5 | failed_logins | cowrie.json | 5–500 | 0–2 |
@@ -189,7 +189,7 @@ python3 scripts/asa_parser.py --input scan.xml --output docs/attack_surface_repo
 ## Roadmap
 
 ```
-Semester Project (✅ Complete)
+Semester Project ( Complete)
   └── Zeek + Cowrie + ASA + Random Forest + UWF Validation
 
 GP1 — Graduation Project 1 (Planned)
@@ -201,4 +201,3 @@ GP2 — Graduation Project 2 (Planned)
 
 ---
 
-*Syrian Private University — Faculty of Artificial Intelligence Engineering — 2025/2026*
