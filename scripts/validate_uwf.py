@@ -1,9 +1,4 @@
-"""
-validate_uwf.py
-Validates the trained RF model against UWF-ZeekData22 external dataset.
-Applies feature approximation mapping from network-flow to session features.
-Usage: python3 scripts/validate_uwf.py
-"""
+
 import os
 import warnings
 warnings.filterwarnings("ignore")
@@ -45,7 +40,6 @@ def main():
     df = df[required].dropna()
     df["label"] = df["mitre_attack_tactics"].apply(label_map)
 
-    # Feature approximation mapping
     max_bytes = df["orig_bytes"].max() if df["orig_bytes"].max() > 0 else 1
     feat = pd.DataFrame({
         "command_count"    : df["orig_pkts"],
