@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.env
+venv/
+env/
+
+# Large data files
+data/external/
+data/raw/*.csv
+*.pcap
+*.cap
+
+# Cowrie environment
+cowrie-env/
+cowrie/var/
+
+# Secrets
+*.key
+*.pem
+passwords.txt
+wordlist*.txt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
