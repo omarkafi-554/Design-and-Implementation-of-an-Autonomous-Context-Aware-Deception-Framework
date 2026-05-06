@@ -1,8 +1,4 @@
-"""
-collect_cowrie.py
-Reads all Cowrie JSON log files and saves them as a single CSV.
-Usage: python3 scripts/collect_cowrie.py
-"""
+
 import json
 import os
 import pandas as pd
