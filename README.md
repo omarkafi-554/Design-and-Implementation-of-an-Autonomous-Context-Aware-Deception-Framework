@@ -1,6 +1,6 @@
 # Design and Implementation of an Autonomous Context-Aware Deception Framework
 
-**Semester Project — Cybersecurity**  
+**Semester Project  Cybersecurity**  
 Department of Intelligent Information Systems Security Engineering  
 Faculty of Artificial Intelligence Engineering — Syrian Private University
 
