@@ -2,14 +2,12 @@ import json
 import joblib
 import pandas as pd
 
-# 📥 تحميل الموديل
 model = joblib.load("models/model.pkl")
 
 log_file = "/home/omar/cowrie/var/log/cowrie/cowrie.json"
 
 sessions = {}
 
-# 📥 قراءة اللوج
 with open(log_file) as f:
     for line in f:
         try:
@@ -35,7 +33,6 @@ with open(log_file) as f:
             if pwd:
                 sessions[session]["unique_passwords"].add(pwd)
 
-# 🧠 تحويل ل dataframe
 data = []
 
 for s, v in sessions.items():
@@ -47,10 +44,8 @@ for s, v in sessions.items():
 
 df = pd.DataFrame(data)
 
-# 🤖 prediction
 predictions = model.predict(df)
 
-# 🖥️ عرض النتائج
 for i, row in enumerate(data):
     label = "Human" if predictions[i] == 1 else "Bot"
     print(f"Session {i+1}: {label}")
