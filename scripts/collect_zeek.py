@@ -1,8 +1,3 @@
-"""
-collect_zeek.py
-Reads Zeek conn.log and saves it as conn_raw.csv.
-Usage: python3 scripts/collect_zeek.py
-"""
 import os
 import pandas as pd
 
