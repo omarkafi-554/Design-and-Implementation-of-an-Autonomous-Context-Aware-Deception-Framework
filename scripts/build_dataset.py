@@ -14,9 +14,6 @@ import pandas as pd
 COWRIE_LOG_DIR = os.path.expanduser("~/cowrie/var/log/cowrie/")
 OUTPUT_PATH    = "data/processed/labeled_dataset.csv"
 
-# ── Labeling rule ─────────────────────────────────────────────────
-# Human: icd_mean > 4.0 s  AND  command_count >= 2
-# Bot  : everything else
 ICD_THRESHOLD   = 4.0
 CMD_THRESHOLD   = 2
 
