@@ -1,9 +1,3 @@
-"""
-build_dataset.py
-Engineers 8 behavioral features from Cowrie logs, labels each session
-as Bot (0) or Human (1), and saves the labeled dataset.
-Usage: python3 scripts/build_dataset.py
-"""
 import json
 import os
 from datetime import datetime
