@@ -60,7 +60,7 @@ An intelligent cybersecurity system that **automatically**:
 | Metric | Value |
 |--------|-------|
 | **Accuracy** | 97.9% |
-| **AUC** | 0.9942 |
+| **AUC** | 1.0000 |
 | **False Negatives (missed attacks)** | **0** |
 | **CV F1 (5-fold)** | 0.978 ± 0.025 |
 | **External validation FN (UWF-ZeekData22)** | **0** |
