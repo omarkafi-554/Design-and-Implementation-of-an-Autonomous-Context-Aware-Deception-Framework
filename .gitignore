@@ -12,3 +12,8 @@ scan.xml
 
 # ملفات النظام
 .DS_Store
+*.backup
+models/model.pkl
+data/processed/clean_dataset.csv
+data/processed/uwf_dataset.csv
+--output
