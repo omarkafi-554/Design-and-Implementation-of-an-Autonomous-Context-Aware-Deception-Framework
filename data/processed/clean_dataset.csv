@@ -1,0 +1,16 @@
+session,command_count,login_attempts,unique_passwords,client,label,type
+0d12ec38cec2,0.0,1.0,1.0,SSH-2.0-libssh_0.11.3,0,Bot
+298e727f002d,4.0,1.0,1.0,SSH-2.0-OpenSSH_10.2p1 Debian-5,1,Human
+5512703763ca,0.0,1.0,1.0,SSH-2.0-libssh_0.11.3,0,Bot
+5cba028d0ca4,0.0,0.0,0.0,SSH-2.0-libssh_0.11.3,0,Bot
+7e0223a2c405,3.0,1.0,1.0,SSH-2.0-OpenSSH_10.2p1 Debian-5,1,Human
+80baec01bf93,6.0,1.0,1.0,SSH-2.0-OpenSSH_10.2p1 Debian-5,1,Human
+82ced08e0be3,0.0,1.0,1.0,SSH-2.0-libssh_0.11.3,0,Bot
+86dc1e58e0a1,0.0,0.0,0.0,SSH-2.0-OpenSSH_10.2p1 Debian-5,0,Bot
+8959bba0a210,3.0,1.0,1.0,SSH-2.0-OpenSSH_10.2p1 Debian-5,1,Human
+b5cc0d1c0ade,4.0,1.0,1.0,SSH-2.0-OpenSSH_10.2p1 Debian-5,1,Human
+bea82194aa88,4.0,1.0,1.0,SSH-2.0-OpenSSH_10.2p1 Debian-5,1,Human
+c59f62ff8dab,3.0,1.0,1.0,SSH-2.0-OpenSSH_10.2p1 Debian-5,1,Human
+e61126c7bb47,4.0,1.0,1.0,SSH-2.0-OpenSSH_10.2p1 Debian-5,1,Human
+f517452baa36,0.0,1.0,1.0,SSH-2.0-libssh_0.11.3,0,Bot
+f8f51bd3e71d,3.0,1.0,1.0,SSH-2.0-OpenSSH_10.2p1 Debian-5,1,Human

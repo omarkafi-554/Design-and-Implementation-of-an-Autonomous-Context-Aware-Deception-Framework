@@ -1,0 +1,14 @@
+# بيئات بايثون الافتراضية
+cowrie-env/
+*.venv/
+__pycache__/
+*.pyc
+
+# بيانات ضخمة أو حساسة — ما بدنا نرفعها
+data/external/*.csv
+data/raw/
+docs/asa_report.csv
+scan.xml
+
+# ملفات النظام
+.DS_Store
