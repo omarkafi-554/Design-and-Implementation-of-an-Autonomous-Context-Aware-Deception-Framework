@@ -4,7 +4,7 @@ cowrie-env/
 __pycache__/
 *.pyc
 
-# بيانات ضخمة أو حساسة — ما بدنا نرفعها
+# بيانات ضخمة أو حساسة —لم نرفعها
 data/external/*.csv
 data/raw/
 docs/asa_report.csv
