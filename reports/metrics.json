@@ -1,0 +1,91 @@
+{
+  "dataset": {
+    "interactive_sessions": 52,
+    "human": 31,
+    "bot": 21,
+    "groups": 14
+  },
+  "results": {
+    "TIMING_only": {
+      "RandomForest": {
+        "mcc": 0.7632,
+        "balanced_accuracy": 0.8648,
+        "errors_by_group": {
+          "bot3": 5,
+          "p10": 1
+        },
+        "n": 52
+      },
+      "DecisionTree": {
+        "mcc": 0.81,
+        "balanced_accuracy": 0.881,
+        "errors_by_group": {
+          "bot3": 5
+        },
+        "n": 52
+      },
+      "SVM": {
+        "mcc": 1.0,
+        "balanced_accuracy": 1.0,
+        "errors_by_group": {},
+        "n": 52
+      },
+      "LogReg": {
+        "mcc": 1.0,
+        "balanced_accuracy": 1.0,
+        "errors_by_group": {},
+        "n": 52
+      },
+      "Baseline_majority": {
+        "mcc": 0.0,
+        "balanced_accuracy": 0.5,
+        "errors_by_group": {
+          "bot1": 6,
+          "bot2": 5,
+          "bot3": 5,
+          "bot4": 5
+        },
+        "n": 52
+      }
+    },
+    "FULL": {
+      "RandomForest": {
+        "mcc": 0.81,
+        "balanced_accuracy": 0.881,
+        "errors_by_group": {
+          "bot3": 5
+        },
+        "n": 52
+      },
+      "DecisionTree": {
+        "mcc": 1.0,
+        "balanced_accuracy": 1.0,
+        "errors_by_group": {},
+        "n": 52
+      },
+      "SVM": {
+        "mcc": 1.0,
+        "balanced_accuracy": 1.0,
+        "errors_by_group": {},
+        "n": 52
+      },
+      "LogReg": {
+        "mcc": 1.0,
+        "balanced_accuracy": 1.0,
+        "errors_by_group": {},
+        "n": 52
+      },
+      "Baseline_majority": {
+        "mcc": 0.0,
+        "balanced_accuracy": 0.5,
+        "errors_by_group": {
+          "bot1": 6,
+          "bot2": 5,
+          "bot3": 5,
+          "bot4": 5
+        },
+        "n": 52
+      }
+    }
+  }
+}
