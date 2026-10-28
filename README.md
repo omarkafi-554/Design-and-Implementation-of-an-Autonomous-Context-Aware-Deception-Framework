@@ -1,10 +1,10 @@
 # Autonomous Context-Aware Deception Framework
 
 **Semester project and Graduation Project 1 (up to Seminar 1)**
-Classifying SSH honeypot sessions as **Bot** or **Human** from behavioural and keystroke-dynamics features, in an isolated two-VM lab.
+Classifying SSH honeypot sessions as **Bot** or **Human** in an isolated two-VM lab. The sections below describe the semester pipeline; GP1 changes are at the end.
 
 Authors: Omar Khaled Abdulkafi, Moaz Hassan Al-Dawalibi
-Supervisors: Dr. Wassiem Jnidi, Eng. Amjad Al-Safadi
+Supervisors: Dr. Wassim Juneidi, Eng. Nagham Ashqar
 
 ---
 
@@ -18,7 +18,7 @@ Labels come from each session's **provenance — the login username**, recorded 
 
 | Login username | Class | Source |
 |---|---|---|
-| p1 … p10 | Human | real participants running manual sessions |
+| p1 … p10 | Human | human operators typing manual sessions |
 | bot1 … bot4 | Bot | auto_session.py generators (fast/medium/slow/burst) |
 | root, admin, … | Bot (non-interactive) | Hydra / Nmap / Metasploit |
 
@@ -34,16 +34,16 @@ Labels come from each session's **provenance — the login username**, recorded 
     python3 scripts/03_evaluate.py --in data/processed/labeled.csv --out reports/metrics.json
     python3 scripts/04_train_final.py --in data/processed/labeled.csv --out reports --models models
 
-Bot generator (run on Kali): python3 auto_session.py --user bot1 --profile fast
+Bot generator (run on Kali): auto_session.py in the semester, kali/bot_v2.py in GP1.
 
 ## Evaluation
 
-Leave-one-group-out (each fold holds out a whole participant or bot profile); primary metric MCC. Honest finding: timing alone is not sufficient — a deliberately slow bot (bot3) falls inside the human timing range and defeats timing-only tree models; keystroke-dynamics features separate the classes.
+Leave-one-group-out (each fold holds out a whole human operator or bot profile); primary metric MCC. Honest finding: timing alone is not sufficient — a deliberately slow bot (bot3) falls inside the human timing range and defeats timing-only tree models; keystroke-dynamics features separate the classes. In GP1 this separation was traced to a Cowrie logging artefact, and keystroke features were dropped.
 
 ## Methodology notes (what was corrected)
 
 - Circular labelling removed: labels were computed from icd_mean (a training feature); now from provenance.
-- Invalid external validation removed: UWF-ZeekData22 is network-flow data, not honeypot sessions; dropped. Same-type external validation planned for GP1.
+- Invalid external validation removed: UWF-ZeekData22 is network-flow data, not honeypot sessions; dropped. Same-type external validation was done in GP1 (COW160x4 bots, KYPO trainees).
 - Bots corrected: old bot used exec_command (one command, no timing); auto_session.py opens a real interactive shell.
 - Honest limitations: small interactive sample; simple bot generators; keystroke features need TTY logs; adversarial PTY-using human-paced bot is GP1 red-team work.
 
@@ -53,6 +53,9 @@ Leave-one-group-out (each fold holds out a whole participant or bot profile); pr
     pandas==2.3.3
     scikit-learn==1.7.2
     paramiko>=3.0.0
+    lightgbm==4.7.0
+    imbalanced-learn==0.14.2
+    pyyaml==6.0.2
 
 ## Ethics
 
