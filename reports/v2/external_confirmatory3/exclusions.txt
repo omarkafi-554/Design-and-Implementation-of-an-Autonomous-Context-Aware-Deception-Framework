@@ -1,0 +1,6 @@
+# Blind review on 2026-10-21, before any prediction on these days (third draw, seed 20261019).
+# 68 sequences (>= 5 sessions at line 3), 6 families, 15,487 sessions: all automated, none excluded.
+# c6da0f07a0a0ce9f: Outlaw "mdrfckr" SSH-key bot, identical script in all 59 sequences, regular 1-4 s gaps.
+# bb5c89b25f7d0899: MikroTik / miner / Telegram / SMS-modem recon, fixed ~0.9 s or ~2 s gaps.
+# 17f7aa85e15f8882, 2197f7c27afb7905, 9376adfde5675c23: /dev/tcp and curl/wget ELF loaders, ms gaps.
+# a103d79c46716c12: upnpsetup/zsvc dropper, fixed ~30-32 s waits (slow but scripted).

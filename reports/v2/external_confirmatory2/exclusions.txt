@@ -1,0 +1,10 @@
+# Amendment 1, C2: manual blind review of the new COW160x4 days (before any prediction).
+# Input : sequences_for_inspection.txt (59 sequences, 5 families, 13,764 sessions with >= 5
+#         sessions at line k = 3).
+# Rule  : human-operated = typing corrections, exploratory or response-dependent commands.
+#         None of the 59 shows any.
+# Evidence: the 52 Outlaw sequences use only the same 20 lines (random passwords aside) from
+#         >= 5 source IPs; the other 7 have fixed scripted waits (~1 s, ~33.8 s), millisecond
+#         gaps, or binary payload bytes sent as input.
+# Result: 0 sequences excluded.
+# Reviewed: 2026-10-17

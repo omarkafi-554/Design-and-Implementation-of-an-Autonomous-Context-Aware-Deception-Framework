@@ -1,0 +1,37 @@
+{
+ "source_url": "https://zenodo.org/records/21260400/files/data_all.zip?download=1",
+ "doi": "10.5281/zenodo.21260400",
+ "retrieved_utc": "2026-10-16T22:13:15Z",
+ "files": [
+  {
+   "day": "2025-07-03",
+   "member": "../logs_by_day/2025-07-03.json.gz",
+   "crc32": "3a78e796",
+   "sha256": "6112dcd46930fe18ed3d001284c1501620242ea0b17cc3d498ecd5a6cc19e4c8"
+  },
+  {
+   "day": "2025-07-14",
+   "member": "../logs_by_day/2025-07-14.json.gz",
+   "crc32": "3b946e3c",
+   "sha256": "4c2270ba1c41ed55d7c9d1fa6bc7cb1daa5328ac40043bf598366a3f115745cf"
+  },
+  {
+   "day": "2025-07-26",
+   "member": "../logs_by_day/2025-07-26.json.gz",
+   "crc32": "fde6fa9c",
+   "sha256": "104c7abb9e160d901e79b6fcb7830babb67447703d1d1910694df6c167b8f8ba"
+  },
+  {
+   "day": "2025-07-31",
+   "member": "../logs_by_day/2025-07-31.json.gz",
+   "crc32": "da3e6896",
+   "sha256": "b34712cd2e720d84bda914d380374061cb22afd7bd1d2059cc850037cff8b5a7"
+  },
+  {
+   "day": "2025-08-10",
+   "member": "../logs_by_day/2025-08-10.json.gz",
+   "crc32": "de86cc9b",
+   "sha256": "7a76eca48b68582417971d6ab554b2368e96060edc2f4910dc563cd5550c5bb0"
+  }
+ ]
+}

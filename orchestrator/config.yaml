@@ -1,0 +1,8 @@
+classifier:
+  model_json: models/model_E_v2.joblib
+  model_json_sha256: "cfa7b15ef201ca20c49e0b2a4baf4f5a11fd7334b8af4f7d302ef37dcf414c22"
+  use_b: false
+  model_b: models/model_B_v2.joblib
+  model_b_sha256: ""
+  k: 3
+  theta: 0.5

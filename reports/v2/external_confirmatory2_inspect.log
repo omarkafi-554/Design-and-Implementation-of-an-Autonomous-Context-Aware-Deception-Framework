@@ -1,0 +1,22 @@
+[+] read data/external/cow160/confirm2/logs_by_day/2025-07-06.json.gz
+[+] read data/external/cow160/confirm2/logs_by_day/2025-07-16.json.gz
+[+] read data/external/cow160/confirm2/logs_by_day/2025-07-23.json.gz
+[+] read data/external/cow160/confirm2/logs_by_day/2025-08-02.json.gz
+[+] read data/external/cow160/confirm2/logs_by_day/2025-08-14.json.gz
+{
+ "quality": {
+  "lines": 20840221,
+  "sessions_seen": 3786320,
+  "sessions_complete": 3750295,
+  "sessions_with_commands": 277721,
+  "cmd_sessions_complete": 277445,
+  "substitution_events_removed": 74415,
+  "passwd_echo_events_removed": 2009,
+  "empty_inputs": 570,
+  "sessions_only_empty_input": 68
+ },
+ "sessions_ge1_line": 277377,
+ "campaign_sessions": 254497,
+ "sequences_for_inspection": 59
+}
+[+] reports/v2/external_confirmatory2/sequences_for_inspection.txt  (no predictions were made)

@@ -1,0 +1,80 @@
+{
+ "stage": "score_bots",
+ "model": {
+  "model": "A3",
+  "k": 3,
+  "algo": "DT",
+  "features": [
+   "log_gap_median",
+   "gap_cv",
+   "log_max_rate"
+  ],
+  "trained_on": "lab dev sessions used to refit Model A",
+  "sessions": 143,
+  "features_csv_sha256": "841acdd2ba9fd198910047730a0a29032e76594e868b0d025bfd66f4c4f53161",
+  "sklearn": "1.7.2"
+ },
+ "files": [
+  "2025-07-06.json.gz",
+  "2025-07-16.json.gz",
+  "2025-07-23.json.gz",
+  "2025-08-02.json.gz",
+  "2025-08-14.json.gz"
+ ],
+ "label": "template",
+ "kappa": 5,
+ "quality": {
+  "lines": 20840221,
+  "sessions_seen": 3786320,
+  "sessions_complete": 3750295,
+  "sessions_with_commands": 277721,
+  "cmd_sessions_complete": 277445,
+  "substitution_events_removed": 74415,
+  "passwd_echo_events_removed": 2009,
+  "empty_inputs": 570,
+  "sessions_only_empty_input": 68
+ },
+ "excluded_sequences": {},
+ "false_human_rates": {
+  "unit": "family",
+  "campaign_sessions_ge1_line": 254497,
+  "reached_line_k": 13764,
+  "predicted_human_FP": 113,
+  "predicted_bot_TN": 13651,
+  "conditional_FPR": 0.0082,
+  "conditional_FPR_95CI": [
+   0.0,
+   0.1424
+  ],
+  "operational_FPR": 0.0004,
+  "clusters_at_k": 5,
+  "clusters_ge5": 5,
+  "macro_FPR_ge5": 0.0296,
+  "macro_FPR_95CI": [
+   0.0,
+   0.0889
+  ],
+  "small_clusters_pooled_FPR": null
+ },
+ "per_sequence_secondary": {
+  "unit": "seq",
+  "campaign_sessions_ge1_line": 254497,
+  "reached_line_k": 13764,
+  "predicted_human_FP": 113,
+  "predicted_bot_TN": 13651,
+  "conditional_FPR": 0.0082,
+  "conditional_FPR_95CI": [
+   0.0,
+   0.0848
+  ],
+  "operational_FPR": 0.0004,
+  "clusters_at_k": 59,
+  "clusters_ge5": 59,
+  "macro_FPR_ge5": 0.0076,
+  "macro_FPR_95CI": [
+   0.0,
+   0.0203
+  ],
+  "small_clusters_pooled_FPR": null
+ }
+}

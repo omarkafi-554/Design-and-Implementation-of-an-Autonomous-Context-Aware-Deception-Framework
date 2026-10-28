@@ -1,0 +1,42 @@
+{
+ "artefacts_removed": {
+  "substitution": 90250,
+  "passwd_echo": 2338
+ },
+ "exact": {
+  "campaign_sessions": 164046,
+  "k3": {
+   "sessions": 977,
+   "sequences_ge5": 6,
+   "families_ge5": 4
+  },
+  "k4": {
+   "sessions": 886,
+   "sequences_ge5": 5,
+   "families_ge5": 4
+  },
+  "k5": {
+   "sessions": 886,
+   "sequences_ge5": 5,
+   "families_ge5": 4
+  }
+ },
+ "template": {
+  "campaign_sessions": 186686,
+  "k3": {
+   "sessions": 14142,
+   "sequences_ge5": 67,
+   "families_ge5": 9
+  },
+  "k4": {
+   "sessions": 14051,
+   "sequences_ge5": 66,
+   "families_ge5": 9
+  },
+  "k5": {
+   "sessions": 13976,
+   "sequences_ge5": 64,
+   "families_ge5": 8
+  }
+ }
+}

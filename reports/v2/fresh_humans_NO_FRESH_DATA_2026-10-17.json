@@ -1,0 +1,32 @@
+{
+ "A": {
+  "k": 3,
+  "algo": "DT",
+  "fresh_sessions_total": 0,
+  "reached_line_k": 0,
+  "detected_as_human": 0,
+  "TPR_at_decision": null,
+  "TPR_operational": null,
+  "per_participant": {},
+  "redteam_bot": {
+   "reached_line_k": 18,
+   "called_human_FP": 18,
+   "TNR": 0.0
+  }
+ },
+ "B": {
+  "k": 3,
+  "algo": "RF",
+  "fresh_sessions_total": 0,
+  "reached_line_k": 0,
+  "detected_as_human": 0,
+  "TPR_at_decision": null,
+  "TPR_operational": null,
+  "per_participant": {},
+  "redteam_bot": {
+   "reached_line_k": 18,
+   "called_human_FP": 18,
+   "TNR": 0.0
+  }
+ }
+}

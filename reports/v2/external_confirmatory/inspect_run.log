@@ -1,0 +1,44 @@
+[+] read data/external/cow160/confirm/logs_by_day/2025-07-03.json.gz
+[+] read data/external/cow160/confirm/logs_by_day/2025-07-14.json.gz
+[+] read data/external/cow160/confirm/logs_by_day/2025-07-26.json.gz
+[+] read data/external/cow160/confirm/logs_by_day/2025-07-31.json.gz
+[+] read data/external/cow160/confirm/logs_by_day/2025-08-10.json.gz
+{
+ "quality": {
+  "lines": 21564082,
+  "sessions_seen": 3816107,
+  "sessions_complete": 3776978,
+  "sessions_with_commands": 403288,
+  "cmd_sessions_complete": 403121,
+  "substitution_events_removed": 87050,
+  "passwd_echo_events_removed": 2561,
+  "empty_inputs": 202
+ },
+ "sessions_ge1_line": 403121,
+ "campaign_sessions": 385252,
+ "sequences_for_inspection": 61
+}
+[+] reports/v2/external_confirmatory/sequences_for_inspection.txt  (no predictions were made)
+	Command being timed: "python3 scripts/12_external_v2.py inspect --days data/external/cow160/confirm/logs_by_day/*.json.gz"
+	User time (seconds): 368.96
+	System time (seconds): 12.67
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 6:22.50
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2524736
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 82
+	Minor (reclaiming a frame) page faults: 1050545
+	Voluntary context switches: 513
+	Involuntary context switches: 2403
+	Swaps: 0
+	File system inputs: 360040
+	File system outputs: 120
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,6 +1,6 @@
 # Autonomous Context-Aware Deception Framework
 
-**Semester Project — corrected scientific pipeline**
+**Semester project and Graduation Project 1 (up to Seminar 1)**
 Classifying SSH honeypot sessions as **Bot** or **Human** from behavioural and keystroke-dynamics features, in an isolated two-VM lab.
 
 Authors: Omar Khaled Abdulkafi, Moaz Hassan Al-Dawalibi
@@ -57,3 +57,11 @@ Leave-one-group-out (each fold holds out a whole participant or bot profile); pr
 ## Ethics
 
 All offensive activity was performed inside an isolated lab against hosts owned by the project team, with no route to the public internet.
+
+## GP1 (up to Seminar 1)
+
+- Classifier revised: Cowrie logging artefacts removed, decision at the third command from three timing features, hard vote of LightGBM, logistic regression and SVM, frozen before testing on external data (COW160x4, KYPO).
+- Live classification of Cowrie and Zeek logs in `orchestrator/`, with unit tests.
+- Report (Introduction, Chapters 1 and 2) and seminar slides in `docs/gp1/`.
+
+The semester version is tagged `v1.0-semester`.

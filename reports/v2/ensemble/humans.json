@@ -1,0 +1,156 @@
+{
+ "stage": "score-humans",
+ "amendment": "PREREG_AMENDMENT_2",
+ "model_E_sha256": "cfa7b15ef201ca20c49e0b2a4baf4f5a11fd7334b8af4f7d302ef37dcf414c22",
+ "model_A3_sha256": "6dee5128c695159d8e056dd48eb0762351bc2a5205ed27f81cad3ac6019db03c",
+ "k": 3,
+ "lab_held_out": {
+  "fresh": {
+   "E": {
+    "reached_line_k": 17,
+    "predicted_human": 17,
+    "per_group": {
+     "p16": "5/5",
+     "p17": "3/3",
+     "p18": "3/3",
+     "p19": "3/3",
+     "p20": "3/3"
+    },
+    "TPR_at_decision": 1.0,
+    "TPR_95CI_participant_bootstrap": [
+     1.0,
+     1.0
+    ],
+    "TPR_operational": 1.0
+   },
+   "A3": {
+    "reached_line_k": 17,
+    "predicted_human": 12,
+    "per_group": {
+     "p16": "4/5",
+     "p17": "2/3",
+     "p18": "2/3",
+     "p19": "1/3",
+     "p20": "3/3"
+    },
+    "TPR_at_decision": 0.7059,
+    "TPR_95CI_participant_bootstrap": [
+     0.5294,
+     0.8667
+    ],
+    "TPR_operational": 0.7059
+   },
+   "E_vote_shares": {
+    "0/3": 0,
+    "1/3": 0,
+    "2/3": 5,
+    "3/3": 12
+   },
+   "E_human_A3_bot": 5,
+   "E_bot_A3_human": 0,
+   "fresh_sessions_total": 17
+  },
+  "redteam": {
+   "E": {
+    "reached_line_k": 18,
+    "predicted_human": 9,
+    "per_group": {
+     "bot_mimic": "9/18"
+    },
+    "TNR": 0.5
+   },
+   "A3": {
+    "reached_line_k": 18,
+    "predicted_human": 6,
+    "per_group": {
+     "bot_mimic": "6/18"
+    },
+    "TNR": 0.6667
+   },
+   "E_vote_shares": {
+    "0/3": 6,
+    "1/3": 3,
+    "2/3": 3,
+    "3/3": 6
+   },
+   "E_human_A3_bot": 4,
+   "E_bot_A3_human": 1
+  }
+ },
+ "kypo": {
+  "trainees": 267,
+  "whole_second_trainings_not_primary": [
+   "Junior hacker"
+  ],
+  "primary_trainees_with_bash_lines": 249,
+  "E": {
+   "reached_line_k": 249,
+   "predicted_human": 234,
+   "human_recall": 0.9398,
+   "human_recall_95CI": [
+    0.9076,
+    0.9679
+   ],
+   "operational_recall": 0.9398,
+   "per_training": {
+    "House of cards": "22/22",
+    "Junior hacker adaptive": "54/62",
+    "Locust 3302": "129/134",
+    "SQL injection": "8/8",
+    "Secret laboratory": "11/13",
+    "Webmin exploit practice": "10/10"
+   },
+   "whole_second_trainings_secondary": {
+    "reached_line_k": 18,
+    "predicted_human": 17,
+    "human_recall": 0.9444
+   }
+  },
+  "A3": {
+   "reached_line_k": 249,
+   "predicted_human": 216,
+   "human_recall": 0.8675,
+   "human_recall_95CI": [
+    0.8233,
+    0.9076
+   ],
+   "operational_recall": 0.8675,
+   "per_training": {
+    "House of cards": "19/22",
+    "Junior hacker adaptive": "52/62",
+    "Locust 3302": "118/134",
+    "SQL injection": "8/8",
+    "Secret laboratory": "10/13",
+    "Webmin exploit practice": "9/10"
+   },
+   "whole_second_trainings_secondary": {
+    "reached_line_k": 18,
+    "predicted_human": 15,
+    "human_recall": 0.8333
+   }
+  },
+  "E_vote_shares": {
+   "0/3": 11,
+   "1/3": 4,
+   "2/3": 10,
+   "3/3": 224
+  },
+  "E_human_A3_bot": 18,
+  "E_bot_A3_human": 0,
+  "E2_pass": true
+ },
+ "kypo_quality": {
+  "files": 267,
+  "bad_json_lines": 0,
+  "records": 21108,
+  "type:bash-command": 16083,
+  "bash_ts_fraction_digits:6": 3300,
+  "type:msf-command": 5025,
+  "bash_out_of_order": 11,
+  "bash_ts_fraction_digits:3": 10910,
+  "bash_exact_duplicates_removed": 26,
+  "bash_ts_fraction_digits:0": 1711,
+  "bash_ts_fraction_digits:1": 144,
+  "bash_empty": 18
+ }
+}

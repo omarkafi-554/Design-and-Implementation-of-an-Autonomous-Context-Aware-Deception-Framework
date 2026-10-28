@@ -1,0 +1,104 @@
+[+] read data/external/cow160/confirm/logs_by_day/2025-07-03.json.gz
+[+] read data/external/cow160/confirm/logs_by_day/2025-07-14.json.gz
+[+] read data/external/cow160/confirm/logs_by_day/2025-07-26.json.gz
+[+] read data/external/cow160/confirm/logs_by_day/2025-07-31.json.gz
+[+] read data/external/cow160/confirm/logs_by_day/2025-08-10.json.gz
+{
+ "quality": {
+  "lines": 21564082,
+  "sessions_seen": 3816107,
+  "sessions_complete": 3776978,
+  "sessions_with_commands": 403288,
+  "cmd_sessions_complete": 403121,
+  "substitution_events_removed": 87050,
+  "passwd_echo_events_removed": 2561,
+  "empty_inputs": 202
+ },
+ "overall": {
+  "unit": "family",
+  "campaign_sessions_ge1_line": 362790,
+  "reached_line_k": 921,
+  "predicted_human_FP": 629,
+  "predicted_bot_TN": 292,
+  "conditional_FPR": 0.683,
+  "conditional_FPR_95CI": [
+   0.2692,
+   0.9024
+  ],
+  "operational_FPR": 0.0017,
+  "clusters_at_k": 3,
+  "clusters_ge5": 3,
+  "macro_FPR_ge5": 0.6112,
+  "macro_FPR_95CI": [
+   0.2692,
+   0.9024
+  ],
+  "small_clusters_pooled_FPR": null
+ },
+ "per_sequence_secondary": {
+  "unit": "seq",
+  "campaign_sessions_ge1_line": 362790,
+  "reached_line_k": 921,
+  "predicted_human_FP": 629,
+  "predicted_bot_TN": 292,
+  "conditional_FPR": 0.683,
+  "conditional_FPR_95CI": [
+   0.4545,
+   0.8561
+  ],
+  "operational_FPR": 0.0017,
+  "clusters_at_k": 6,
+  "clusters_ge5": 6,
+  "macro_FPR_ge5": 0.6674,
+  "macro_FPR_95CI": [
+   0.4159,
+   0.8539
+  ],
+  "small_clusters_pooled_FPR": null
+ },
+ "seen_families": {
+  "unit": "family",
+  "campaign_sessions_ge1_line": 361909,
+  "reached_line_k": 921,
+  "predicted_human_FP": 629,
+  "predicted_bot_TN": 292,
+  "conditional_FPR": 0.683,
+  "conditional_FPR_95CI": [
+   0.2692,
+   0.9024
+  ],
+  "operational_FPR": 0.0017,
+  "clusters_at_k": 3,
+  "clusters_ge5": 3,
+  "macro_FPR_ge5": 0.6112,
+  "macro_FPR_95CI": [
+   0.2692,
+   0.9024
+  ],
+  "small_clusters_pooled_FPR": null
+ },
+ "new_families": {
+  "unit": "family",
+  "campaign_sessions_ge1_line": 881,
+  "reached_line_k": 0,
+  "predicted_human_FP": 0,
+  "predicted_bot_TN": 0,
+  "conditional_FPR": null,
+  "conditional_FPR_95CI": null,
+  "operational_FPR": 0.0,
+  "clusters_at_k": 0,
+  "clusters_ge5": 0,
+  "macro_FPR_ge5": null,
+  "macro_FPR_95CI": null,
+  "small_clusters_pooled_FPR": null
+ },
+ "by_config_group": {
+  "g1": 0.0547,
+  "g2": 0.8976,
+  "g3": 0.8914,
+  "g4": 1.0
+ },
+ "excluded_sequences": {},
+ "P3_pass": false
+}
+[+] reports/v2/external_confirmatory_exact/score.json  per_family.csv  per_sequence.csv  campaign_sessions.csv

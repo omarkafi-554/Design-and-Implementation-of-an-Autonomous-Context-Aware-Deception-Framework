@@ -1,0 +1,93 @@
+[+] read data/external/cow160/confirm/logs_by_day/2025-07-03.json.gz
+[+] read data/external/cow160/confirm/logs_by_day/2025-07-14.json.gz
+[+] read data/external/cow160/confirm/logs_by_day/2025-07-26.json.gz
+[+] read data/external/cow160/confirm/logs_by_day/2025-07-31.json.gz
+[+] read data/external/cow160/confirm/logs_by_day/2025-08-10.json.gz
+
+=== Feature quartiles (Q1 / median / Q3) at line k = 3 ===
+                             log_first_latency        log_gap_median              gap_cv        log_max_rate      n
+who                                                                                                                
+COW bot -> called Bot     -0.25 / -0.02 / 0.05    0.41 / 0.52 / 0.72  0.54 / 0.62 / 0.82  2.51 / 2.60 / 2.70   2193
+COW bot -> called Human     0.18 / 0.26 / 0.38    0.61 / 0.69 / 0.78  0.50 / 0.57 / 0.62  2.24 / 2.36 / 2.44  13100
+LAB bot                  -1.36 / -1.02 / -0.75  -1.65 / -0.16 / 0.31  0.01 / 0.05 / 0.16  1.80 / 2.34 / 2.73     97
+LAB human                   0.69 / 0.86 / 1.09    0.71 / 0.96 / 1.16  0.22 / 0.33 / 0.47  0.06 / 0.17 / 0.25     46
+
+=== By COW160 configuration group ===
+          n    FPR  med_log_first_latency  med_log_gap_median  med_gap_cv  med_log_max_rate
+group                                                                                      
+g1      919  0.066                 -0.286               0.776       0.859             2.718
+g2     6157  0.911                  0.231               0.671       0.577             2.386
+g3     6552  0.880                  0.223               0.669       0.581             2.397
+g4     1665  1.000                  0.458               0.700       0.421             2.196
+
+=== Family x group (n >= 5) ===
+                           n    FPR  med_log_first_latency  med_log_gap_median  med_gap_cv  med_log_max_rate
+family           group                                                                                      
+17f7aa85e15f8882 g1        8  0.000                 -0.089              -0.901       0.951             3.880
+                 g2       13  0.769                  0.189              -0.983       0.875             3.573
+                 g3       19  1.000                  0.379              -0.968       0.849             3.360
+                 g4        9  1.000                  0.532              -0.858       0.877             3.395
+4e9a6730bdcfc139 g3        5  1.000                  1.047               0.887       0.634             1.638
+9376adfde5675c23 g1        7  0.286                 -0.190               0.226       0.998             3.962
+                 g2        6  1.000                  0.246               0.282       0.995             3.496
+                 g3        6  0.667                  0.155               0.280       0.994             3.408
+                 g4        7  1.000                  0.391               0.260       0.995             3.583
+a103d79c46716c12 g1       17  0.000                 -0.419              -0.247       0.058             1.650
+                 g2        8  0.750                  0.150               0.226       0.038             1.165
+                 g4        9  1.000                  0.387               0.418       0.030             0.990
+bb5c89b25f7d0899 g1      220  0.023                 -0.318              -0.186       0.063             1.497
+                 g2      193  0.881                  0.221               0.288       0.051             0.955
+                 g3      180  0.872                  0.224               0.285       0.048             0.952
+                 g4      179  1.000                  0.442               0.462       0.035             0.734
+c6da0f07a0a0ce9f g1      664  0.080                 -0.275               0.822       0.883             2.801
+                 g2     5934  0.913                  0.231               0.678       0.579             2.392
+                 g3     6341  0.880                  0.223               0.675       0.583             2.401
+                 g4     1459  1.000                  0.460               0.718       0.434             2.210
+
+=== Lab training groups (median features) ===
+                      n  med_log_first_latency  med_log_gap_median  med_gap_cv  med_log_max_rate
+who       group                                                                                 
+LAB bot   bot1        6                  0.028              -0.717       0.088             1.694
+          bot2        5                  0.024               0.114       0.230             0.895
+          bot3        5                  0.022               0.786       0.184             0.279
+          bot4        5                  0.021              -1.681       0.039             2.607
+          bot_burst  20                 -0.932              -2.361       0.137             3.737
+          bot_rtt    19                 -1.069              -0.222       0.029             2.246
+          bot_sleep  18                 -1.125               0.701       0.004             2.291
+          bot_slow   19                 -1.144               0.161       0.159             2.304
+LAB human p1          4                  0.769               1.075       0.400             0.172
+          p10         3                  0.839               1.133       0.489             0.191
+          p11         3                  0.963               1.170       0.218             0.169
+          p12         3                  1.005               1.149       0.286             0.072
+          p13         3                  1.235               1.123       0.051             0.222
+          p14         3                  1.107               1.147       0.129             0.064
+          p15         3                  1.106               1.186       0.269             0.148
+          p2          3                  0.503               0.736       0.312             0.099
+          p3          3                  0.807               0.850       0.311             0.111
+          p4          3                  0.841               0.914       0.368             0.120
+          p5          3                  0.903               1.128       0.626             0.232
+          p6          3                  0.869               0.594       0.456             0.055
+          p7          3                  0.606               0.894       0.386             0.199
+          p8          3                  0.736               0.771       0.374             0.180
+          p9          3                  0.843               0.655       0.296             0.246
+
+{
+ "note": "POST-HOC, exploratory; confirmatory verdict unchanged",
+ "k": 3,
+ "features": [
+  "log_first_latency",
+  "log_gap_median",
+  "gap_cv",
+  "log_max_rate"
+ ],
+ "algo": "DT",
+ "feature_importance": {
+  "log_first_latency": 1.0,
+  "log_gap_median": 0.0,
+  "gap_cv": 0.0,
+  "log_max_rate": 0.0
+ },
+ "cow_sessions_scored": 15293,
+ "cow_FPR_recomputed": 0.8566
+}
+[+] reports/v2/external_confirmatory/posthoc/  (post-hoc; nothing frozen was changed)

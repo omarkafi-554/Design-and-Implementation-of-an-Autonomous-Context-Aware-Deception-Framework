@@ -1,0 +1,4 @@
+amendment_frozen_at 2026-10-16T23:34:16Z
+dd2bcf44dbe547d1dba0b5b41d057bdb5f59fd1c2e7616d0586e51963f03e04d  docs/PREREG_AMENDMENT_1.md
+8a77b33d6a0b4619387a60bf93afef0377f7a07876b865e268713c4086759698  scripts/15_fresh_A3.py
+4947c0d3e7e96c6868f3d47b8773565b3c27355cafed65069530f2d0ecc484e1  scripts/fetch_resume.py

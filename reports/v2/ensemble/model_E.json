@@ -1,0 +1,46 @@
+{
+ "stage": "fit",
+ "model_E": {
+  "model": "E",
+  "k": 3,
+  "algo": "VOTE-hard(LightGBM, LogReg, SVM)",
+  "voting": "hard",
+  "members": {
+   "LightGBM": "Pipeline(steps=[('standardscaler', StandardScaler()),\n                ('lgbmclassifier',\n                 LGBMClassifier(class_weight='balanced', deterministic=True,\n                                force_row_wise=True, learning_rate=0.05,\n                                max_depth=3, min_child_samples=10,\n                                n_estimators=200, n_jobs=1, num_leaves=7,\n                                random_state=42, reg_lambda=1.0, verbose=-1))])",
+   "LogReg": "Pipeline(steps=[('standardscaler', StandardScaler()),\n                ('logisticregression',\n                 LogisticRegression(class_weight='balanced', max_iter=1000))])",
+   "SVM": "Pipeline(steps=[('standardscaler', StandardScaler()),\n                ('svc', SVC(class_weight='balanced'))])"
+  },
+  "features": [
+   "log_gap_median",
+   "gap_cv",
+   "log_max_rate"
+  ],
+  "trained_on": "lab dev sessions used to refit Models A and A3",
+  "sessions": 143,
+  "n_train_human": 46,
+  "features_csv_sha256": "19f58f26c51a02e0aa95696533500e4f84df9ab9ccb74f54fad1ebda338a8163",
+  "data_checks": {
+   "features_csv_sha256": "19f58f26c51a02e0aa95696533500e4f84df9ab9ccb74f54fad1ebda338a8163",
+   "csv_sha256_same_as_at_A3_freeze": false,
+   "population_same_as_frozen_A3": true
+  },
+  "versions": {
+   "python": "3.10.12",
+   "numpy": "2.2.6",
+   "pandas": "2.3.3",
+   "sklearn": "1.7.2",
+   "lightgbm": "4.7.0",
+   "imbalanced-learn": "0.14.2"
+  },
+  "sklearn": "1.7.2",
+  "decision": "Human when at least 2 of the 3 members say Human; score = share of member votes for Human",
+  "amendment": "PREREG_AMENDMENT_2"
+ },
+ "model_E_sha256": "cfa7b15ef201ca20c49e0b2a4baf4f5a11fd7334b8af4f7d302ef37dcf414c22",
+ "train_vote_shares": {
+  "0/3": 86,
+  "1/3": 3,
+  "2/3": 8,
+  "3/3": 46
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "stage": "inspect",
+ "kypo_root": "data/external/kypo/data",
+ "quality": {
+  "files": 267,
+  "bad_json_lines": 0,
+  "records": 21108,
+  "type:bash-command": 16083,
+  "bash_ts_fraction_digits:6": 3300,
+  "type:msf-command": 5025,
+  "bash_out_of_order": 11,
+  "bash_ts_fraction_digits:3": 10910,
+  "bash_exact_duplicates_removed": 26,
+  "bash_ts_fraction_digits:0": 1711,
+  "bash_ts_fraction_digits:1": 144,
+  "bash_empty": 18
+ },
+ "trainees": 267,
+ "trainees_with_bash_lines": 267,
+ "trainees_reaching_line_k": {
+  "3": 267,
+  "4": 267,
+  "5": 264
+ },
+ "trainees_per_training": {
+  "House of cards": 22,
+  "Junior hacker adaptive": 62,
+  "Junior hacker": 18,
+  "Locust 3302": 134,
+  "SQL injection": 8,
+  "Secret laboratory": 13,
+  "Webmin exploit practice": 10
+ },
+ "whole_second_trainings_not_primary": [
+  "Junior hacker"
+ ],
+ "trainees_primary": 249
+}

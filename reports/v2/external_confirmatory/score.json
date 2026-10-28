@@ -1,0 +1,154 @@
+{
+ "stage": "score",
+ "tag": "confirmatory",
+ "files": [
+  "2025-07-03.json.gz",
+  "2025-07-14.json.gz",
+  "2025-07-26.json.gz",
+  "2025-07-31.json.gz",
+  "2025-08-10.json.gz"
+ ],
+ "label": "template",
+ "kappa": 5,
+ "k": 3,
+ "model": {
+  "model": "A",
+  "k": 3,
+  "algo": "DT",
+  "features": [
+   "log_first_latency",
+   "log_gap_median",
+   "gap_cv",
+   "log_max_rate"
+  ],
+  "n_train": 143,
+  "n_train_human": 46,
+  "features_csv_sha256": "841acdd2ba9fd198910047730a0a29032e76594e868b0d025bfd66f4c4f53161",
+  "sklearn": "1.7.2",
+  "decision": "predict(): Human when P(Human) >= 0.5",
+  "human_decision_delay_s": {
+   "median": 25.68,
+   "p75": 41.49
+  }
+ },
+ "quality": {
+  "lines": 21564082,
+  "sessions_seen": 3816107,
+  "sessions_complete": 3776978,
+  "sessions_with_commands": 403288,
+  "cmd_sessions_complete": 403121,
+  "substitution_events_removed": 87050,
+  "passwd_echo_events_removed": 2561,
+  "empty_inputs": 202
+ },
+ "sessions_ge1_line": 403121,
+ "campaign_sessions": 385252,
+ "excluded_sequences": {},
+ "reached_without_login_ts_excluded": 0,
+ "overall": {
+  "unit": "family",
+  "campaign_sessions_ge1_line": 385252,
+  "reached_line_k": 15293,
+  "predicted_human_FP": 13100,
+  "predicted_bot_TN": 2193,
+  "conditional_FPR": 0.8566,
+  "conditional_FPR_95CI": [
+   0.6222,
+   0.8682
+  ],
+  "operational_FPR": 0.034,
+  "clusters_at_k": 7,
+  "clusters_ge5": 7,
+  "macro_FPR_ge5": 0.7372,
+  "macro_FPR_95CI": [
+   0.6203,
+   0.8507
+  ],
+  "small_clusters_pooled_FPR": null
+ },
+ "per_sequence_secondary": {
+  "unit": "seq",
+  "campaign_sessions_ge1_line": 385252,
+  "reached_line_k": 15293,
+  "predicted_human_FP": 13100,
+  "predicted_bot_TN": 2193,
+  "conditional_FPR": 0.8566,
+  "conditional_FPR_95CI": [
+   0.7913,
+   0.9574
+  ],
+  "operational_FPR": 0.034,
+  "clusters_at_k": 61,
+  "clusters_ge5": 61,
+  "macro_FPR_ge5": 0.8951,
+  "macro_FPR_95CI": [
+   0.8489,
+   0.9362
+  ],
+  "small_clusters_pooled_FPR": null
+ },
+ "seen_families": {
+  "unit": "family",
+  "campaign_sessions_ge1_line": 384324,
+  "reached_line_k": 15293,
+  "predicted_human_FP": 13100,
+  "predicted_bot_TN": 2193,
+  "conditional_FPR": 0.8566,
+  "conditional_FPR_95CI": [
+   0.6222,
+   0.8682
+  ],
+  "operational_FPR": 0.0341,
+  "clusters_at_k": 7,
+  "clusters_ge5": 7,
+  "macro_FPR_ge5": 0.7372,
+  "macro_FPR_95CI": [
+   0.6203,
+   0.8507
+  ],
+  "small_clusters_pooled_FPR": null
+ },
+ "new_families": {
+  "unit": "family",
+  "campaign_sessions_ge1_line": 928,
+  "reached_line_k": 0,
+  "predicted_human_FP": 0,
+  "predicted_bot_TN": 0,
+  "conditional_FPR": null,
+  "conditional_FPR_95CI": null,
+  "operational_FPR": 0.0,
+  "clusters_at_k": 0,
+  "clusters_ge5": 0,
+  "macro_FPR_ge5": null,
+  "macro_FPR_95CI": null,
+  "small_clusters_pooled_FPR": null
+ },
+ "new_sequences_in_seen_families": {
+  "unit": "seq",
+  "campaign_sessions_ge1_line": 79,
+  "reached_line_k": 67,
+  "predicted_human_FP": 61,
+  "predicted_bot_TN": 6,
+  "conditional_FPR": 0.9104,
+  "conditional_FPR_95CI": [
+   0.7758,
+   1.0
+  ],
+  "operational_FPR": 0.7722,
+  "clusters_at_k": 10,
+  "clusters_ge5": 10,
+  "macro_FPR_ge5": 0.8867,
+  "macro_FPR_95CI": [
+   0.7533,
+   1.0
+  ],
+  "small_clusters_pooled_FPR": null
+ },
+ "by_config_group": {
+  "g1": 0.0664,
+  "g2": 0.9113,
+  "g3": 0.8796,
+  "g4": 1.0
+ },
+ "P3_pass": false
+}

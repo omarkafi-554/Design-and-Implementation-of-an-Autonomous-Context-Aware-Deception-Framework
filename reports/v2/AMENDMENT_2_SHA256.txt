@@ -1,0 +1,12 @@
+frozen_utc 2026-10-21T11:14:46Z
+c3adce23b6e601866bbab183381c681c39635d60ae5d017c50f09edfae59620e  docs/PREREG_AMENDMENT_2.md
+06613402f3eb8c5701773aa33ef22ae398eeb78728e080b426675ab1de3b3b3b  scripts/16_ensemble_v2.py
+81e6e0be1cefcbac022b22cd56040947413fe2a87c6fcd72f246ca84dc17f320  scripts/test_ensemble_v2.py
+imbalanced-learn==0.14.2
+lightgbm==4.7.0
+narwhals==2.27.1
+numpy==2.2.6
+pandas==2.3.3
+scikit-learn==1.7.2
+sklearn-compat==0.1.6
+cfa7b15ef201ca20c49e0b2a4baf4f5a11fd7334b8af4f7d302ef37dcf414c22  models/model_E_v2.joblib

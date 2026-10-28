@@ -18,3 +18,34 @@ data/processed/clean_dataset.csv
 data/processed/uwf_dataset.csv
 --output
 old_scripts_backup/
+
+# ---- GP1 additions (never publish) ----
+.venv/
+venv/
+__pycache__/
+*.pyc
+# external datasets: public, licensed by their authors; link them instead (see docs/GP1_SEMINAR1.md)
+data/external/
+# decoy root file system export: contains the honeypot's SSH host keys
+decoys/identity/build/
+*.pickle
+rootfs.tar
+# evidence collected from decoys and runtime state
+evidence/
+*.db
+*.sqlite
+*.sqlite3
+# keys
+ssh_host_*_key
+*.pem
+id_rsa
+id_ecdsa
+id_ed25519
+# local Cowrie configuration
+cowrie.cfg
+# large per-session tables derived from COW160x4 (regenerable; hashes in SHA256SUMS)
+reports/diagnostics/external_lines_v2.csv
+reports/external/external_sessions.csv
+reports/v2/external_confirmatory/campaign_sessions.csv
+reports/v2/external_confirmatory_exact/campaign_sessions.csv
+reports/diagnostics/template_sessions.csv

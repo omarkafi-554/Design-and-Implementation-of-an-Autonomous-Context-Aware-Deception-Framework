@@ -1,0 +1,35 @@
+{
+ "criterion": "C1 (PREREG_AMENDMENT_1)",
+ "model": "A3",
+ "k": 3,
+ "algo": "DT",
+ "fresh_participants": [
+  "p16",
+  "p17",
+  "p18",
+  "p19",
+  "p20"
+ ],
+ "fresh_sessions_total": 17,
+ "reached_line_k": 17,
+ "detected_as_human": 12,
+ "TPR_at_decision": 0.7059,
+ "TPR_95CI_participant_bootstrap": [
+  0.5294,
+  0.8667
+ ],
+ "TPR_operational": 0.7059,
+ "per_participant": {
+  "p16": "4/5",
+  "p17": "2/3",
+  "p18": "2/3",
+  "p19": "1/3",
+  "p20": "3/3"
+ },
+ "C1_pass": false,
+ "redteam_bot_secondary": {
+  "reached_line_k": 18,
+  "called_human_FP": 6,
+  "TNR": 0.6667
+ }
+}

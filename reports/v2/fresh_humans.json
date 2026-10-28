@@ -1,0 +1,44 @@
+{
+ "A": {
+  "k": 3,
+  "algo": "DT",
+  "fresh_sessions_total": 17,
+  "reached_line_k": 17,
+  "detected_as_human": 17,
+  "TPR_at_decision": 1.0,
+  "TPR_operational": 1.0,
+  "per_participant": {
+   "p16": "5/5",
+   "p17": "3/3",
+   "p18": "3/3",
+   "p19": "3/3",
+   "p20": "3/3"
+  },
+  "redteam_bot": {
+   "reached_line_k": 18,
+   "called_human_FP": 18,
+   "TNR": 0.0
+  }
+ },
+ "B": {
+  "k": 3,
+  "algo": "RF",
+  "fresh_sessions_total": 17,
+  "reached_line_k": 16,
+  "detected_as_human": 16,
+  "TPR_at_decision": 1.0,
+  "TPR_operational": 0.9412,
+  "per_participant": {
+   "p16": "4/4",
+   "p17": "3/3",
+   "p18": "3/3",
+   "p19": "3/3",
+   "p20": "3/3"
+  },
+  "redteam_bot": {
+   "reached_line_k": 18,
+   "called_human_FP": 18,
+   "TNR": 0.0
+  }
+ }
+}

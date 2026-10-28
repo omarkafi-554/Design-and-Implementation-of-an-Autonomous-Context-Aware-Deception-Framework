@@ -1,0 +1,99 @@
+{
+ "rows": 514,
+ "dup_session_ids": 0,
+ "null_cells": 209,
+ "null_by_col": {
+  "login_username": 209
+ },
+ "time_range": [
+  "2026-04-06 18:30:51.489746+00:00",
+  "2026-10-09 14:17:18.128277+00:00"
+ ],
+ "labeled": 52,
+ "labeled_by_population": {
+  "interactive": {
+   "bot1": 6,
+   "bot2": 5,
+   "bot3": 5,
+   "bot4": 5,
+   "p1": 4,
+   "p10": 3,
+   "p2": 3,
+   "p3": 3,
+   "p4": 3,
+   "p5": 3,
+   "p6": 3,
+   "p7": 3,
+   "p8": 3,
+   "p9": 3
+  }
+ },
+ "username_regex_consistency": true,
+ "attack_tool_usernames_top": {
+  "<none>": 209,
+  "root": 122,
+  "admin": 53,
+  "omar": 21,
+  "ubuntu": 20,
+  "test": 20,
+  "user": 17
+ },
+ "attack_tool_interactive": 120,
+ "interactive": {
+  "n": 52,
+  "human": 31,
+  "bot": 21,
+  "groups": 14
+ },
+ "bot_command_count_values": [
+  9
+ ],
+ "human_command_count_range": [
+  4,
+  9
+ ],
+ "has_tty_by_class": {
+  "0": 0.048,
+  "1": 1.0
+ },
+ "icd_mean_range": {
+  "human": [
+   3.49,
+   20.98
+  ],
+  "bot3": [
+   4.61,
+   5.78
+  ]
+ },
+ "src_ip_by_class": {
+  "0": [
+   "192.168.71.129"
+  ],
+  "1": [
+   "192.168.71.129"
+  ]
+ },
+ "ablation_mcc": {
+  "command_count_only": {
+   "DT": 0.9242,
+   "RF": 0.9242,
+   "LogReg": 0.8231
+  },
+  "timing_without_counts": {
+   "DT": 0.7193,
+   "RF": 0.7193,
+   "LogReg": 0.7193
+  },
+  "keystroke_only": {
+   "DT": 1.0,
+   "RF": 1.0,
+   "LogReg": 1.0
+  },
+  "has_tty_only": {
+   "DT": 0.9605,
+   "RF": 0.9605,
+   "LogReg": 0.9605
+  }
+ }
+}

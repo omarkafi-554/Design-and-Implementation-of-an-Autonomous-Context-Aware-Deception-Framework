@@ -1,0 +1,74 @@
+[+] read data/external/cow160/confirm/logs_by_day/2025-07-03.json.gz
+[+] read data/external/cow160/confirm/logs_by_day/2025-07-14.json.gz
+[+] read data/external/cow160/confirm/logs_by_day/2025-07-26.json.gz
+[+] read data/external/cow160/confirm/logs_by_day/2025-07-31.json.gz
+[+] read data/external/cow160/confirm/logs_by_day/2025-08-10.json.gz
+{
+ "stage": "score",
+ "kypo_quality": {
+  "files": 267,
+  "bad_json_lines": 0,
+  "records": 21108,
+  "type:bash-command": 16083,
+  "bash_ts_fraction_digits:6": 3300,
+  "type:msf-command": 5025,
+  "bash_out_of_order": 11,
+  "bash_ts_fraction_digits:3": 10910,
+  "bash_exact_duplicates_removed": 26,
+  "bash_ts_fraction_digits:0": 1711,
+  "bash_ts_fraction_digits:1": 144,
+  "bash_empty": 18
+ },
+ "trainees": 267,
+ "whole_second_trainings_not_primary": [
+  "Junior hacker"
+ ],
+ "primary_trainees_with_bash_lines": 249,
+ "reached_line_k": 249,
+ "predicted_human": 216,
+ "human_recall": 0.8675,
+ "human_recall_95CI": [
+  0.8233,
+  0.9076
+ ],
+ "operational_recall": 0.8675,
+ "per_training": {
+  "House of cards": "19/22",
+  "Junior hacker adaptive": "52/62",
+  "Locust 3302": "118/134",
+  "SQL injection": "8/8",
+  "Secret laboratory": "10/13",
+  "Webmin exploit practice": "9/10"
+ },
+ "whole_second_trainings_secondary": {
+  "reached_line_k": 18,
+  "predicted_human": 15,
+  "human_recall": 0.8333
+ },
+ "P4_pass": true
+}
+[+] reports/v2/external_human_kypo/score.json  reports/v2/external_human_kypo/trainees.csv
+{
+ "false_human_rates": {
+  "unit": "family",
+  "campaign_sessions_ge1_line": 385252,
+  "reached_line_k": 15293,
+  "predicted_human_FP": 81,
+  "predicted_bot_TN": 15212,
+  "conditional_FPR": 0.0053,
+  "conditional_FPR_95CI": [
+   0.0,
+   0.1003
+  ],
+  "operational_FPR": 0.0002,
+  "clusters_at_k": 7,
+  "clusters_ge5": 7,
+  "macro_FPR_ge5": 0.015,
+  "macro_FPR_95CI": [
+   0.0,
+   0.045
+  ],
+  "small_clusters_pooled_FPR": null
+ }
+}
+[+] reports/v2/external_bots_A3_confirmatory/score.json  reports/v2/external_bots_A3_confirmatory/per_family.csv

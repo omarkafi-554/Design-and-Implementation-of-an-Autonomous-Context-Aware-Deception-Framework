@@ -1,0 +1,47 @@
+{
+ "stage": "inspect",
+ "tag": "confirmatory3",
+ "files": [
+  "2025-07-01.json.gz",
+  "2025-07-10.json.gz",
+  "2025-07-24.json.gz",
+  "2025-08-05.json.gz",
+  "2025-08-11.json.gz"
+ ],
+ "label": "template",
+ "kappa": 5,
+ "k": 3,
+ "model": {
+  "model": "A",
+  "k": 3,
+  "algo": "DT",
+  "features": [
+   "log_first_latency",
+   "log_gap_median",
+   "gap_cv",
+   "log_max_rate"
+  ],
+  "n_train": 143,
+  "n_train_human": 46,
+  "features_csv_sha256": "841acdd2ba9fd198910047730a0a29032e76594e868b0d025bfd66f4c4f53161",
+  "sklearn": "1.7.2",
+  "decision": "predict(): Human when P(Human) >= 0.5",
+  "human_decision_delay_s": {
+   "median": 25.68,
+   "p75": 41.49
+  }
+ },
+ "quality": {
+  "lines": 20770991,
+  "sessions_seen": 3754568,
+  "sessions_complete": 3718019,
+  "sessions_with_commands": 274567,
+  "cmd_sessions_complete": 274337,
+  "substitution_events_removed": 76595,
+  "passwd_echo_events_removed": 2676,
+  "empty_inputs": 492
+ },
+ "sessions_ge1_line": 274337,
+ "campaign_sessions": 257982,
+ "sequences_for_inspection": 68
+}

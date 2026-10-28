@@ -1,0 +1,54 @@
+{
+ "stage": "fit",
+ "k": 3,
+ "algo": "DT",
+ "model_A3": {
+  "model": "A3",
+  "k": 3,
+  "algo": "DT",
+  "features": [
+   "log_gap_median",
+   "gap_cv",
+   "log_max_rate"
+  ],
+  "trained_on": "lab dev sessions used to refit Model A",
+  "sessions": 143,
+  "features_csv_sha256": "841acdd2ba9fd198910047730a0a29032e76594e868b0d025bfd66f4c4f53161",
+  "sklearn": "1.7.2"
+ },
+ "lab_LOGO_same_k_and_algo": {
+  "A_full": {
+   "n": 143,
+   "TP": 45,
+   "FP": 0,
+   "TN": 97,
+   "FN": 1,
+   "TPR": 0.9783,
+   "FPR": 0.0,
+   "specificity": 1.0,
+   "precision": 1.0,
+   "MCC": 0.984,
+   "MCC_95CI": [
+    0.9489,
+    1.0
+   ]
+  },
+  "A3": {
+   "n": 143,
+   "TP": 38,
+   "FP": 9,
+   "TN": 88,
+   "FN": 8,
+   "TPR": 0.8261,
+   "FPR": 0.0928,
+   "specificity": 0.9072,
+   "precision": 0.8085,
+   "MCC": 0.7292,
+   "MCC_95CI": [
+    0.5524,
+    0.8786
+   ]
+  }
+ },
+ "note": "LOGO with the configuration chosen for Model A (not nested)"
+}

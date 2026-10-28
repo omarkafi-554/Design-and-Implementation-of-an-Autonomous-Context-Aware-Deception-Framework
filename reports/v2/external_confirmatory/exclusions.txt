@@ -1,0 +1,10 @@
+# Manual blind review of COW160x4 confirmatory campaign sequences (before any prediction).
+# Input : sequences_for_inspection.txt from 12_external_v2.py inspect (61 sequences, 7 families,
+#         15,293 sessions in sequences with >= 5 sessions at line k).
+# Rule  : a sequence is judged human-operated if it shows typing corrections, exploratory or
+#         response-dependent commands. None of the 61 does.
+# Evidence of automation in every sequence: identical multi-line content from >= 5 source IPs,
+#         per-session random values (passwords, file names, tokens), regular or scripted gaps
+#         (e.g. repeated 32.4 s sleeps), or binary payload bytes sent as input.
+# Result: 0 sequences excluded.
+# Reviewed: 2026-10-17

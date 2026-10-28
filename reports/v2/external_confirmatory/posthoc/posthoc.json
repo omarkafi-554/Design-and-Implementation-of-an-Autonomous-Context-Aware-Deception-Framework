@@ -1,0 +1,19 @@
+{
+ "note": "POST-HOC, exploratory; confirmatory verdict unchanged",
+ "k": 3,
+ "features": [
+  "log_first_latency",
+  "log_gap_median",
+  "gap_cv",
+  "log_max_rate"
+ ],
+ "algo": "DT",
+ "feature_importance": {
+  "log_first_latency": 1.0,
+  "log_gap_median": 0.0,
+  "gap_cv": 0.0,
+  "log_max_rate": 0.0
+ },
+ "cow_sessions_scored": 15293,
+ "cow_FPR_recomputed": 0.8566
+}

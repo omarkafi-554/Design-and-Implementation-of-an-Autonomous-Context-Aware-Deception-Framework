@@ -1,0 +1,127 @@
+[+] read data/external/cow160/confirm/logs_by_day/2025-07-03.json.gz
+[+] read data/external/cow160/confirm/logs_by_day/2025-07-14.json.gz
+[+] read data/external/cow160/confirm/logs_by_day/2025-07-26.json.gz
+[+] read data/external/cow160/confirm/logs_by_day/2025-07-31.json.gz
+[+] read data/external/cow160/confirm/logs_by_day/2025-08-10.json.gz
+{
+ "quality": {
+  "lines": 21564082,
+  "sessions_seen": 3816107,
+  "sessions_complete": 3776978,
+  "sessions_with_commands": 403288,
+  "cmd_sessions_complete": 403121,
+  "substitution_events_removed": 87050,
+  "passwd_echo_events_removed": 2561,
+  "empty_inputs": 202
+ },
+ "overall": {
+  "unit": "family",
+  "campaign_sessions_ge1_line": 385252,
+  "reached_line_k": 15293,
+  "predicted_human_FP": 13100,
+  "predicted_bot_TN": 2193,
+  "conditional_FPR": 0.8566,
+  "conditional_FPR_95CI": [
+   0.6222,
+   0.8682
+  ],
+  "operational_FPR": 0.034,
+  "clusters_at_k": 7,
+  "clusters_ge5": 7,
+  "macro_FPR_ge5": 0.7372,
+  "macro_FPR_95CI": [
+   0.6203,
+   0.8507
+  ],
+  "small_clusters_pooled_FPR": null
+ },
+ "per_sequence_secondary": {
+  "unit": "seq",
+  "campaign_sessions_ge1_line": 385252,
+  "reached_line_k": 15293,
+  "predicted_human_FP": 13100,
+  "predicted_bot_TN": 2193,
+  "conditional_FPR": 0.8566,
+  "conditional_FPR_95CI": [
+   0.7913,
+   0.9574
+  ],
+  "operational_FPR": 0.034,
+  "clusters_at_k": 61,
+  "clusters_ge5": 61,
+  "macro_FPR_ge5": 0.8951,
+  "macro_FPR_95CI": [
+   0.8489,
+   0.9362
+  ],
+  "small_clusters_pooled_FPR": null
+ },
+ "seen_families": {
+  "unit": "family",
+  "campaign_sessions_ge1_line": 384324,
+  "reached_line_k": 15293,
+  "predicted_human_FP": 13100,
+  "predicted_bot_TN": 2193,
+  "conditional_FPR": 0.8566,
+  "conditional_FPR_95CI": [
+   0.6222,
+   0.8682
+  ],
+  "operational_FPR": 0.0341,
+  "clusters_at_k": 7,
+  "clusters_ge5": 7,
+  "macro_FPR_ge5": 0.7372,
+  "macro_FPR_95CI": [
+   0.6203,
+   0.8507
+  ],
+  "small_clusters_pooled_FPR": null
+ },
+ "new_families": {
+  "unit": "family",
+  "campaign_sessions_ge1_line": 928,
+  "reached_line_k": 0,
+  "predicted_human_FP": 0,
+  "predicted_bot_TN": 0,
+  "conditional_FPR": null,
+  "conditional_FPR_95CI": null,
+  "operational_FPR": 0.0,
+  "clusters_at_k": 0,
+  "clusters_ge5": 0,
+  "macro_FPR_ge5": null,
+  "macro_FPR_95CI": null,
+  "small_clusters_pooled_FPR": null
+ },
+ "by_config_group": {
+  "g1": 0.0664,
+  "g2": 0.9113,
+  "g3": 0.8796,
+  "g4": 1.0
+ },
+ "excluded_sequences": {},
+ "P3_pass": false
+}
+[+] reports/v2/external_confirmatory/score.json  per_family.csv  per_sequence.csv  campaign_sessions.csv
+	Command being timed: "python3 scripts/12_external_v2.py score --days data/external/cow160/confirm/logs_by_day/*.json.gz --exclude reports/v2/external_confirmatory/exclusions.txt"
+	User time (seconds): 378.53
+	System time (seconds): 5.92
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 6:25.43
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2524736
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 81
+	Minor (reclaiming a frame) page faults: 1037657
+	Voluntary context switches: 1138
+	Involuntary context switches: 2334
+	Swaps: 0
+	File system inputs: 963376
+	File system outputs: 52776
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
